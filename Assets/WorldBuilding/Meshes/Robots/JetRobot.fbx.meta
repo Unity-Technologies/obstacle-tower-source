@@ -1,0 +1,224 @@
+fileFormatVersion: 2
+guid: d3f498c743619944dac350552ec459a5
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Chest
+    100002: Chest_joint1
+    100004: Head
+    100006: Head_joint1
+    100008: Head_joint2
+    100010: Hips
+    100012: Hips_joint1
+    100014: Jet
+    100016: //RootNode
+    100018: L_Antenna_joint1
+    100020: L_Antenna_joint2
+    100022: L_Antenna_joint3
+    100024: L_Antenna_joint4
+    100026: L_Antenna_joint5
+    100028: L_Arm
+    100030: L_Arm_joint1
+    100032: L_Arm_joint2
+    100034: L_Arm_joint3
+    100036: L_Arm_joint4
+    100038: L_Arm_joint5
+    100040: L_Arm_joint6
+    100042: L_ClawBottom
+    100044: L_ClawLower_joint1
+    100046: L_ClawLower_joint2
+    100048: L_ClawTop
+    100050: L_ClawUpper_joint1
+    100052: L_ClawUpper_joint2
+    100054: R_Antenna_joint1
+    100056: R_Antenna_joint2
+    100058: R_Antenna_joint3
+    100060: R_Antenna_joint4
+    100062: R_Antenna_joint5
+    100064: R_Arm
+    100066: R_Arm_joint1
+    100068: R_Arm_joint2
+    100070: R_Arm_joint3
+    100072: R_Arm_joint4
+    100074: R_Arm_joint5
+    100076: R_Arm_joint6
+    100078: R_ClawBottom
+    100080: R_ClawLower_joint1
+    100082: R_ClawLower_joint2
+    100084: R_ClawTop
+    100086: R_ClawUpper_joint1
+    100088: R_ClawUpper_joint2
+    100090: Wheel_joint1
+    100092: Wheel_joint2
+    100094: Flames
+    100096: Jet1
+    400000: Chest
+    400002: Chest_joint1
+    400004: Head
+    400006: Head_joint1
+    400008: Head_joint2
+    400010: Hips
+    400012: Hips_joint1
+    400014: Jet
+    400016: //RootNode
+    400018: L_Antenna_joint1
+    400020: L_Antenna_joint2
+    400022: L_Antenna_joint3
+    400024: L_Antenna_joint4
+    400026: L_Antenna_joint5
+    400028: L_Arm
+    400030: L_Arm_joint1
+    400032: L_Arm_joint2
+    400034: L_Arm_joint3
+    400036: L_Arm_joint4
+    400038: L_Arm_joint5
+    400040: L_Arm_joint6
+    400042: L_ClawBottom
+    400044: L_ClawLower_joint1
+    400046: L_ClawLower_joint2
+    400048: L_ClawTop
+    400050: L_ClawUpper_joint1
+    400052: L_ClawUpper_joint2
+    400054: R_Antenna_joint1
+    400056: R_Antenna_joint2
+    400058: R_Antenna_joint3
+    400060: R_Antenna_joint4
+    400062: R_Antenna_joint5
+    400064: R_Arm
+    400066: R_Arm_joint1
+    400068: R_Arm_joint2
+    400070: R_Arm_joint3
+    400072: R_Arm_joint4
+    400074: R_Arm_joint5
+    400076: R_Arm_joint6
+    400078: R_ClawBottom
+    400080: R_ClawLower_joint1
+    400082: R_ClawLower_joint2
+    400084: R_ClawTop
+    400086: R_ClawUpper_joint1
+    400088: R_ClawUpper_joint2
+    400090: Wheel_joint1
+    400092: Wheel_joint2
+    400094: Flames
+    400096: Jet1
+    2100000: rep_Robot
+    2100002: lambert1
+    2300000: //RootNode
+    2300002: Flames
+    2300004: Jet1
+    2300006: Jet
+    3300000: //RootNode
+    3300002: Flames
+    3300004: Jet1
+    3300006: Jet
+    4300000: Chest
+    4300002: R_ClawTop
+    4300004: Head
+    4300006: R_ClawBottom
+    4300008: L_ClawBottom
+    4300010: L_ClawTop
+    4300012: R_Arm
+    4300014: Hips
+    4300016: L_Arm
+    4300018: Jet
+    4300020: Flames
+    4300022: Jet1
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Chest
+    13700002: Head
+    13700004: Hips
+    13700006: Jet
+    13700008: L_Arm
+    13700010: L_ClawBottom
+    13700012: L_ClawTop
+    13700014: R_Arm
+    13700016: R_ClawBottom
+    13700018: R_ClawTop
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_Robot
+    second: {fileID: 2100000, guid: b543cb6f94bfc8348b131eead88e6cf9, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,95 @@
+PX PX PX
+PX FK PX
+PX PX PX
+
+PX FX VK
+PX FX FX
+PX PX PX
+
+PX FX FX
+PX FX FX
+VK PX PX
+
+VK FX FX
+PX FX FX
+PX PX PX
+
+VK FX FX
+PX FX FX
+PX PX PX
+
+GX PX GX
+GX HK GX
+GX PX GX
+
+GX PX GX
+GX SK GX
+GX PX GX
+
+PX PX PX
+PX GK PX
+PX PX PX
+
+wX wX wX
+wX wK wX
+wX wX wX
+
+pX pX pX
+pX hK pX
+pX pX pX
+
+hK PX PX
+pX GX PX
+pX pX PX
+
+PX PX PX
+PX JK PX
+PX PX PX
+
+PX FX VK
+PX FX FX
+PX PX PX
+
+PX FX FX
+PX FX FX
+VK PX PX
+
+PX PX PX
+PX HK PX
+PX PX PX
+
+PX PX PX
+PX SK PX
+PX PX PX
+
+GX PX GX
+GX HK GX
+GX PX GX
+
+PX PX PX
+PX GK PX
+PX PX PX
+
+wX wX wX
+wX wK wX
+wX wX wX
+
+wX wX wX
+wX HK wX
+wX wX wX
+
+wX wX wX
+wX wX wX
+wX wX HK
+
+wX wX HK
+wX wX wX
+wX wX wX
+
+wX HK wX
+wX wX wX
+wX wX wX
+
+wX wX wX
+wX wX wX
+HK wX wX

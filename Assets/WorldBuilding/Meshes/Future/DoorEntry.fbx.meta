@@ -1,0 +1,290 @@
+fileFormatVersion: 2
+guid: 8646a85a5cf2b8b40a2e53ba8c36b243
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: BottomPanel_joint1
+    100002: BottomPanel_joint2
+    100004: BottomPanel_joint3
+    100006: BottomPanel_joint4
+    100008: BottomPanel_joint5
+    100010: BottomPanel_joint6
+    100012: ConcreteWall
+    100014: //RootNode
+    100016: DoorPanel01
+    100018: DoorPanel010
+    100020: DoorPanel013
+    100022: DoorPanel014
+    100024: DoorPanel02
+    100026: DoorPanel03
+    100028: DoorPanel04
+    100030: DoorPanel05
+    100032: DoorPanel06
+    100034: DoorPanel07
+    100036: DoorPanel08
+    100038: DoorPanel09
+    100040: Floor
+    100042: ikHandle1
+    100044: ikHandle2
+    100046: ikHandle3
+    100048: ikHandle4
+    100050: ikHandle5
+    100052: ikHandle6
+    100054: MetalWall
+    100056: Pin_joint1
+    100058: Pin_joint2
+    100060: Pin_joint3
+    100062: Pin_joint4
+    100064: Pin_joint5
+    100066: Pin_joint6
+    100068: PinBottom
+    100070: PinTop
+    100072: SteelFrame
+    100074: TopPanel_joint1
+    100076: TopPanel_joint4
+    100078: TopPanel_joint5
+    100080: TopPanel_joint6
+    100082: TopPanel_joint7
+    100084: TopPanel_joint8
+    400000: BottomPanel_joint1
+    400002: BottomPanel_joint2
+    400004: BottomPanel_joint3
+    400006: BottomPanel_joint4
+    400008: BottomPanel_joint5
+    400010: BottomPanel_joint6
+    400012: ConcreteWall
+    400014: //RootNode
+    400016: DoorPanel01
+    400018: DoorPanel010
+    400020: DoorPanel013
+    400022: DoorPanel014
+    400024: DoorPanel02
+    400026: DoorPanel03
+    400028: DoorPanel04
+    400030: DoorPanel05
+    400032: DoorPanel06
+    400034: DoorPanel07
+    400036: DoorPanel08
+    400038: DoorPanel09
+    400040: Floor
+    400042: ikHandle1
+    400044: ikHandle2
+    400046: ikHandle3
+    400048: ikHandle4
+    400050: ikHandle5
+    400052: ikHandle6
+    400054: MetalWall
+    400056: Pin_joint1
+    400058: Pin_joint2
+    400060: Pin_joint3
+    400062: Pin_joint4
+    400064: Pin_joint5
+    400066: Pin_joint6
+    400068: PinBottom
+    400070: PinTop
+    400072: SteelFrame
+    400074: TopPanel_joint1
+    400076: TopPanel_joint4
+    400078: TopPanel_joint5
+    400080: TopPanel_joint6
+    400082: TopPanel_joint7
+    400084: TopPanel_joint8
+    2100000: rep_FT_CO_FormTies
+    2100002: rep_FT_ME_RustyPanels
+    2100004: rep_FT_ME_DoorIcons
+    2100006: rep_FT_ME_Chrome
+    2100008: rep_FT_WO_Slide
+    2100010: rep_FT_ME_RustySteel
+    2100012: rep_FT_ME_WeldedPanels
+    2300000: ConcreteWall
+    2300002: //RootNode
+    2300004: Floor
+    2300006: MetalWall
+    2300008: PinBottom
+    2300010: PinTop
+    2300012: SteelFrame
+    3300000: ConcreteWall
+    3300002: //RootNode
+    3300004: Floor
+    3300006: MetalWall
+    3300008: PinBottom
+    3300010: PinTop
+    3300012: SteelFrame
+    4300000: WallEntry
+    4300002: MetalWall
+    4300004: PinTop
+    4300006: PinBottom
+    4300008: Floor
+    4300010: SteelFrame
+    4300012: DoorPanel09
+    4300014: DoorPanel08
+    4300016: DoorPanel07
+    4300018: DoorPanel06
+    4300020: DoorPanel05
+    4300022: DoorPanel04
+    4300024: DoorPanel03
+    4300026: DoorPanel02
+    4300028: DoorPanel014
+    4300030: DoorPanel013
+    4300032: DoorPanel010
+    4300034: DoorPanel01
+    4300036: ConcreteWall
+    7400000: DoorSmile
+    9500000: //RootNode
+    13700000: DoorPanel01
+    13700002: DoorPanel010
+    13700004: DoorPanel013
+    13700006: DoorPanel014
+    13700008: DoorPanel02
+    13700010: DoorPanel03
+    13700012: DoorPanel04
+    13700014: DoorPanel05
+    13700016: DoorPanel06
+    13700018: DoorPanel07
+    13700020: DoorPanel08
+    13700022: DoorPanel09
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_FT_CO_FormTies
+    second: {fileID: 2100000, guid: 4b86a72b0ed848f4b887275b5806785c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_FT_ME_Chrome
+    second: {fileID: 2100000, guid: 70ae9cfc86fbdec479eb3b52dc4ec861, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_FT_ME_DoorIcons
+    second: {fileID: 2100000, guid: 29fdfede721c10d49af8c8e53c0b62cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_FT_ME_RustyPanels
+    second: {fileID: 2100000, guid: 50ce78c6101ec234cb4bc2b965e86bb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_FT_ME_RustySteel
+    second: {fileID: 2100000, guid: 6fa26a1f17c603641a0e0b07c361cd1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_FT_ME_WeldedPanels
+    second: {fileID: 2100000, guid: 3c26f135ee251ef46843310c53f3ad0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_FT_WO_Slide
+    second: {fileID: 2100000, guid: 0dfb69a3ce5482549a273c31a67639aa, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: DoorSmile
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 46
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

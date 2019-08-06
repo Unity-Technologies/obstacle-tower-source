@@ -1,0 +1,179 @@
+fileFormatVersion: 2
+guid: 7dd696ac52bac8d4f850c70c7f9e5e9b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Cube
+    100002: Cube__1_
+    100004: Cylinder__1_
+    100006: Cylinder__2_
+    100008: Floor
+    100010: //RootNode
+    100012: ColliderFloor
+    100014: ColliderLarge
+    100016: ColliderSmall
+    100018: ColumnSmall
+    100020: PlatformSpin
+    100022: ColliderSpin
+    400000: Cube
+    400002: Cube__1_
+    400004: Cylinder__1_
+    400006: Cylinder__2_
+    400008: Floor
+    400010: //RootNode
+    400012: ColliderFloor
+    400014: ColliderLarge
+    400016: ColliderSmall
+    400018: ColumnSmall
+    400020: PlatformSpin
+    400022: ColliderSpin
+    2100000: AN_ST_Coursed
+    2100002: Rep_AN_ST_running
+    2100004: Rep_AN_ST_drystack_pit
+    2100006: Rep_AN_ST_coursed
+    2100008: lambert1
+    2100010: Rep_AN_WO_solid
+    2100012: rep_AN_ME_Bronze
+    2300000: Cube
+    2300002: Cube__1_
+    2300004: Cylinder__1_
+    2300006: Cylinder__2_
+    2300008: Floor
+    2300010: ColliderFloor
+    2300012: ColliderLarge
+    2300014: ColliderSmall
+    2300016: ColumnSmall
+    2300018: PlatformSpin
+    2300020: //RootNode
+    2300022: ColliderSpin
+    3300000: Cube
+    3300002: Cube__1_
+    3300004: Cylinder__1_
+    3300006: Cylinder__2_
+    3300008: Floor
+    3300010: ColliderFloor
+    3300012: ColliderLarge
+    3300014: ColliderSmall
+    3300016: ColumnSmall
+    3300018: PlatformSpin
+    3300020: //RootNode
+    3300022: ColliderSpin
+    4300000: Cylinder__1_
+    4300002: Floor
+    4300004: Cube
+    4300006: Cube__1_
+    4300008: Cylinder__2_
+    4300010: PlatformStack3
+    4300012: ColumnSmall
+    4300014: ColliderSmall
+    4300016: PlatformSpin
+    4300018: ColliderLarge
+    4300020: ColliderFloor
+    4300022: ColliderSpin
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rep_AN_ST_coursed
+    second: {fileID: 2100000, guid: a2e82ce5838306747a1bbcc77139cf5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rep_AN_ST_drystack_pit
+    second: {fileID: 2100000, guid: b8932993fb9091342b9cfd5568bb210c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rep_AN_ST_running
+    second: {fileID: 2100000, guid: 1edae168a527ac84ea72683b386aa0a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rep_AN_WO_solid
+    second: {fileID: 2100000, guid: 676561c557a1b7544b24536a784b2df4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_AN_ME_Bronze
+    second: {fileID: 2100000, guid: 04a6c4caa72dc004d81eab3db958cae9, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

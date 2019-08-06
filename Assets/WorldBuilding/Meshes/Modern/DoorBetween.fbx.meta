@@ -1,0 +1,242 @@
+fileFormatVersion: 2
+guid: ebbe9fe3516b3bc4b8b1eb994294d316
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Door
+    100002: //RootNode
+    100004: FloorFoundation
+    100006: GearArms2
+    100008: GearSpiral1
+    100010: GearSpoked2
+    100012: Canopy
+    100014: Floor
+    100016: Infill_glass
+    100018: Infill_tile
+    100020: WindowFrame
+    100022: InfillTile
+    100024: InfillWood
+    100026: WindowFrames
+    400000: Door
+    400002: //RootNode
+    400004: FloorFoundation
+    400006: GearArms2
+    400008: GearSpiral1
+    400010: GearSpoked2
+    400012: Canopy
+    400014: Floor
+    400016: Infill_glass
+    400018: Infill_tile
+    400020: WindowFrame
+    400022: InfillTile
+    400024: InfillWood
+    400026: WindowFrames
+    2100000: IN_ME_RivetedIron
+    2100002: IN_CO_BoardFormed
+    2100004: IN_BR_Running
+    2100006: IN_BR_Common
+    2100008: IN_ME_DoorRegular
+    2100010: IN_ME_ForgedBronze
+    2100012: IN_ST_Dressed
+    2100014: IN_ST_Pit
+    2100016: rep_MD_CO_PanelSolid
+    2100018: rep_MD_CO_PanelFormTies
+    2100020: rep_MD_ME_Anodized_Bronze
+    2100022: rep_MD_TI_Subway
+    2100024: rep_MD_ME_Chrome
+    2100026: rep_MD_FM_DoorIcons
+    2100028: rep_MD_WO_Solid
+    2100030: rep_MD_PT_WhiteSG
+    2100032: rep_MD_TZ_Waves
+    2100034: rep_MD_GL_Wired
+    2100036: rep_MD_WO_DoorInset
+    2100038: rep_MD_WO_DoorIcons
+    2300000: Door
+    2300002: //RootNode
+    2300004: FloorFoundation
+    2300006: GearArms2
+    2300008: GearSpiral1
+    2300010: GearSpoked2
+    2300012: Canopy
+    2300014: Floor
+    2300016: Infill_glass
+    2300018: Infill_tile
+    2300020: WindowFrame
+    2300022: InfillTile
+    2300024: InfillWood
+    2300026: WindowFrames
+    3300000: Door
+    3300002: //RootNode
+    3300004: FloorFoundation
+    3300006: GearArms2
+    3300008: GearSpiral1
+    3300010: GearSpoked2
+    3300012: Canopy
+    3300014: Floor
+    3300016: Infill_glass
+    3300018: Infill_tile
+    3300020: WindowFrame
+    3300022: InfillTile
+    3300024: InfillWood
+    3300026: WindowFrames
+    4300000: DoorBetween
+    4300002: Door
+    4300004: GearArms2
+    4300006: GearSpiral1
+    4300008: GearSpoked2
+    4300010: FloorFoundation
+    4300012: WallDoorway
+    4300014: WindowFrame
+    4300016: Infill_tile
+    4300018: Canopy
+    4300020: Floor
+    4300022: Infill_glass
+    4300024: WindowFrames
+    4300026: InfillTile
+    4300028: InfillWood
+    7400000: IN_DO_BarnDoorOpen
+    7400002: IN_DO_Gears
+    7400004: IN_DO_GearsLarge
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MD_CO_PanelFormTies
+    second: {fileID: 2100000, guid: 7d6aa11f597fb1643900d91d4dbe66a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MD_CO_PanelSolid
+    second: {fileID: 2100000, guid: eedb04115538104428b036fc4dfce71b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MD_FM_DoorIcons
+    second: {fileID: 2100000, guid: 25ce8a12f6bda89429e65ea7e99f8afb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MD_GL_Wired
+    second: {fileID: 2100000, guid: 980dd26c26fc3ac42befdfa9333d6208, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MD_ME_Anodized_Bronze
+    second: {fileID: 2100000, guid: 1069ab15c82683d478af604f05086532, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MD_ME_Chrome
+    second: {fileID: 2100000, guid: 1069ab15c82683d478af604f05086532, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MD_PT_WhiteSG
+    second: {fileID: 2100000, guid: b37daf26558021f41b15568331a79663, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MD_TI_Subway
+    second: {fileID: 2100000, guid: 2810c672d21440045b26ffbf089b5623, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MD_TZ_Waves
+    second: {fileID: 2100000, guid: f35755ee0cf5647e58ec251594774722, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MD_WO_DoorIcons
+    second: {fileID: 2100000, guid: 35b02b7fd9be1144a920f0254a9be067, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MD_WO_DoorInset
+    second: {fileID: 2100000, guid: 25115c3945f2309479f71b86a8adbef8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MD_WO_Solid
+    second: {fileID: 2100000, guid: 855595749f97b2b47af2a00d253c59ed, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

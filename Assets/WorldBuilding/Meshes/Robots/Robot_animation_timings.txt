@@ -1,0 +1,9 @@
+Wheel turn R 0-16
+Wheel turn L 16-32
+Arms default 50
+Head turn L 57-77
+Head turn R 80-98
+Arms up 110-122
+Claws 127-137
+Antennae Down 150-158
+Antennae Up 158-168

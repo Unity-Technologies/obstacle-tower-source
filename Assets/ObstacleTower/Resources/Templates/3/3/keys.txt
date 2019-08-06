@@ -1,0 +1,139 @@
+cK GX GX
+GX PX GX
+GX GX GX
+
+GX cK MX
+GX GX MX
+GX GX MX
+
+GX GX cK
+GX GX GX
+GX GX GX
+
+GX FX PX
+cK FX PX
+GX FX PX
+
+GX GX GX
+GX cK GX
+GX GX GX
+
+PX GX GX
+PX GX cK
+PX GX GX
+
+GX FX GX
+GX FX GX
+cK FX GX
+
+GX GX GX
+PX GX PX
+GX cK GX
+
+GX PX GX
+GX GX GX
+GX PX GK
+
+sK GX GX
+GX GX GX
+GX GX GX
+
+GX sK GX
+GX GX GX
+GX GX GX
+
+GX GX sK
+GX GX GX
+GX GX GX
+
+GX GX GX
+sK GX GX
+GX GX GX
+
+GX GX GX
+PX sK PX
+GX GX GX
+
+GX GX GX
+MX MX sK
+GX GX GX
+
+TX TX TX
+GX GX GX
+sK GX GX
+
+GX GX GX
+FX FX FX
+GX sK GX
+
+GX GX GX
+GX GX GX
+GX GX sK
+
+PX PX PX
+PX hK PX
+PX PX PX
+
+PX PX PX
+PX GK PX
+PX PX PX
+
+GX TX TK
+GX VX TX
+GX TX TX
+
+VX TX TK
+GX GX TX
+GX TX VX
+
+GX TX TX
+GX VX GX
+GX TK TX
+
+mX mX mK
+GX GX GX
+tX tX tX
+
+mK mX mX
+GX GX GX
+tX tX tX
+
+tX tX tX
+GX GX GX
+mK mX mX
+
+tX tX tX
+GX GX GX
+mX mX mK
+
+mK GX tX
+mX GX tX
+mX GX tX
+
+mX tX mK
+GX GX GX
+tX tX tX
+
+mX tX mX
+GX GX GX
+tX tX mK
+
+mX tX mX
+GX GX GX
+mK tX tX
+
+mX tX mX
+GX GX GX
+tX mK tX
+
+mX tX mK
+GX GX GX
+tX mX tX
+
+mK tX mX
+GX GX GX
+tX mX tX
+
+mK tX mX
+GX GX GX
+tX tX tX

@@ -1,0 +1,192 @@
+fileFormatVersion: 2
+guid: 3528b774266d338488c127517900b939
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Arm01
+    100002: Arm02
+    100004: Arm03
+    100006: Arm04
+    100008: Canopy01
+    100010: Canopy01 1
+    100012: Pin01
+    100014: Pin02
+    100016: Pin02 1
+    100018: Pin03
+    100020: Pin03 1
+    100022: Pintle01
+    100024: //RootNode
+    100026: Sail01
+    100028: Sail01 1
+    400000: Arm01
+    400002: Arm02
+    400004: Arm03
+    400006: Arm04
+    400008: Canopy01
+    400010: Canopy01 1
+    400012: Pin01
+    400014: Pin02
+    400016: Pin02 1
+    400018: Pin03
+    400020: Pin03 1
+    400022: Pintle01
+    400024: //RootNode
+    400026: Sail01
+    400028: Sail01 1
+    2100000: rep_FT_WO_Slide
+    2100002: rep_FT_ME_RustySteel
+    2100004: rep_FT_CO_FormTies
+    2100006: rep_FT_ME_RustyPanels
+    2100008: rep_FT_ME_Chrome
+    2300000: Arm01
+    2300002: Arm02
+    2300004: Arm03
+    2300006: Arm04
+    2300008: Canopy01
+    2300010: Canopy01 1
+    2300012: Pin01
+    2300014: Pin02
+    2300016: Pin02 1
+    2300018: Pin03
+    2300020: Pin03 1
+    2300022: Pintle01
+    2300024: //RootNode
+    2300026: Sail01
+    2300028: Sail01 1
+    3300000: Arm01
+    3300002: Arm02
+    3300004: Arm03
+    3300006: Arm04
+    3300008: Canopy01
+    3300010: Canopy01 1
+    3300012: Pin01
+    3300014: Pin02
+    3300016: Pin02 1
+    3300018: Pin03
+    3300020: Pin03 1
+    3300022: Pintle01
+    3300024: //RootNode
+    3300026: Sail01
+    3300028: Sail01 1
+    4300000: PlatformHazard4Arm_Floor
+    4300002: Pintle01
+    4300004: Pin01
+    4300006: Arm02
+    4300008: Pin02
+    4300010: Sail01
+    4300012: Arm01
+    4300014: Pin03
+    4300016: Canopy01
+    4300018: Arm03
+    4300020: Pin02
+    4300022: Sail01
+    4300024: Arm04
+    4300026: Pin03
+    4300028: Canopy01
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_FT_CO_FormTies
+    second: {fileID: 2100000, guid: 4b86a72b0ed848f4b887275b5806785c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_FT_ME_Chrome
+    second: {fileID: 2100000, guid: 70ae9cfc86fbdec479eb3b52dc4ec861, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_FT_ME_RustyPanels
+    second: {fileID: 2100000, guid: 50ce78c6101ec234cb4bc2b965e86bb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_FT_ME_RustySteel
+    second: {fileID: 2100000, guid: 6fa26a1f17c603641a0e0b07c361cd1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_FT_WO_Slide
+    second: {fileID: 2100000, guid: 0dfb69a3ce5482549a273c31a67639aa, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

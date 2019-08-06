@@ -1,0 +1,158 @@
+fileFormatVersion: 2
+guid: 5609d4bd449fbc74a8217d2d7093fd55
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Column01
+    100002: Ladder
+    100004: //RootNode
+    100006: Floor
+    100008: Pit2
+    100010: GlassInner
+    100012: GlassOuter
+    100014: Pit3
+    400000: Column01
+    400002: Ladder
+    400004: //RootNode
+    400006: Floor
+    400008: Pit2
+    400010: GlassInner
+    400012: GlassOuter
+    400014: Pit3
+    2100000: rep_FT_ME_RustySteel
+    2100002: rep_FT_GL_Windows
+    2100004: rep_FT_CO_FormTies
+    2100006: rep_FT_ME_RustyPanels
+    2100008: rep_FT_ST_Pit
+    2300000: Column01
+    2300002: Ladder
+    2300004: //RootNode
+    2300006: Floor
+    2300008: Pit2
+    2300010: GlassInner
+    2300012: GlassOuter
+    2300014: Pit3
+    3300000: Column01
+    3300002: Ladder
+    3300004: //RootNode
+    3300006: Floor
+    3300008: Pit2
+    3300010: GlassInner
+    3300012: GlassOuter
+    3300014: Pit3
+    4300000: WallWindow
+    4300002: Column01
+    4300004: Ladder
+    4300006: Pit2
+    4300008: Floor
+    4300010: Pit3
+    4300012: GlassOuter
+    4300014: GlassInner
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_FT_CO_FormTies
+    second: {fileID: 2100000, guid: 4b86a72b0ed848f4b887275b5806785c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_FT_GL_Windows
+    second: {fileID: 2100000, guid: d7a1714eb3405f3468ea790449bbaa2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_FT_ME_RustyPanels
+    second: {fileID: 2100000, guid: 50ce78c6101ec234cb4bc2b965e86bb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_FT_ME_RustySteel
+    second: {fileID: 2100000, guid: 6fa26a1f17c603641a0e0b07c361cd1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_FT_ST_Pit
+    second: {fileID: 2100000, guid: 20d1abe644324c74a9b222a5dbf50ea8, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,196 @@
+fileFormatVersion: 2
+guid: e83e460d0ed20ac4a9f3714e8c0e0b44
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Door
+    100002: FloorFoundation
+    100004: GearArms2
+    100006: GearSpiral1
+    100008: GearSpoked2
+    100010: //RootNode
+    400000: Door
+    400002: FloorFoundation
+    400004: GearArms2
+    400006: GearSpiral1
+    400008: GearSpoked2
+    400010: //RootNode
+    2100000: rep_IN_ME_RivetedIron
+    2100002: rep_IN_CO_BoardFormed
+    2100004: rep_IN_BR_Running
+    2100006: rep_IN_BR_Common
+    2100008: rep_IN_ME_DoorIcons
+    2100010: rep_IN_ME_ForgedBronze
+    2100012: rep_IN_ST_StoneBlock
+    2100014: rep_IN_ST_Pit
+    2300000: Door
+    2300002: FloorFoundation
+    2300004: GearArms2
+    2300006: GearSpiral1
+    2300008: GearSpoked2
+    2300010: //RootNode
+    3300000: Door
+    3300002: FloorFoundation
+    3300004: GearArms2
+    3300006: GearSpiral1
+    3300008: GearSpoked2
+    3300010: //RootNode
+    4300000: WallDoor
+    4300002: Door
+    4300004: GearSpiral1
+    4300006: GearArms2
+    4300008: GearSpoked2
+    4300010: FloorFoundation
+    7400000: IN_DO_BarnDoorOpen
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_IN_BR_Common
+    second: {fileID: 2100000, guid: 1060fe566f994bc4888e32c1acc34b3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_IN_BR_Running
+    second: {fileID: 2100000, guid: 41a527e25475f884fbc373dfef2ca0d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_IN_CO_BoardFormed
+    second: {fileID: 2100000, guid: a4c293c3c67753846b64bdc331dc7695, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_IN_ME_DoorIcons
+    second: {fileID: 2100000, guid: 7ca9679db7438ae41ba7f34b49f5dac5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_IN_ME_ForgedBronze
+    second: {fileID: 2100000, guid: 0a3b4ca51a096db45ad32fa5d122b159, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_IN_ME_RivetedIron
+    second: {fileID: 2100000, guid: f40493404a9046645b5f9d9ef0d1fd89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_IN_ST_Pit
+    second: {fileID: 2100000, guid: d62395006de77984baecfecfbdb8b2e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_IN_ST_StoneBlock
+    second: {fileID: 2100000, guid: 6ba59e190c360f44d9b7b309afbebda7, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: IN_DO_BarnDoorOpen
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,127 @@
+fileFormatVersion: 2
+guid: 1f7078a9e59093d4494399be6d9e3ada
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Corner
+    100002: //RootNode
+    100004: Floor
+    100006: Pit
+    400000: Corner
+    400002: //RootNode
+    400004: Floor
+    400006: Pit
+    2100000: IN_BR_Running
+    2100002: IN_ST_Dressed
+    2100004: rep_MD_CO_PanelFormTies
+    2100006: rep_MD_Pit
+    2100008: rep_MD_CO_PanelSolid
+    2300000: Corner
+    2300002: Floor
+    2300004: Pit
+    2300006: //RootNode
+    3300000: Corner
+    3300002: Floor
+    3300004: Pit
+    3300006: //RootNode
+    4300000: Corner
+    4300002: WallCorner
+    4300004: Pit
+    4300006: Floor
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MD_CO_PanelFormTies
+    second: {fileID: 2100000, guid: 7d6aa11f597fb1643900d91d4dbe66a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MD_CO_PanelSolid
+    second: {fileID: 2100000, guid: eedb04115538104428b036fc4dfce71b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MD_Pit
+    second: {fileID: 2100000, guid: fc1444133bf233e4fad04ff082d8f5c7, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

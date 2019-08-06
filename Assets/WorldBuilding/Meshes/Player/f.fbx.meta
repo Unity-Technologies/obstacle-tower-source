@@ -1,0 +1,175 @@
+fileFormatVersion: 2
+guid: 2db2614c2881e6848bac16bb1272a15c
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Eye1
+    100002: EyeLine1
+    100004: //RootNode
+    100006: hair_new1
+    100008: Hair_old1
+    100010: Hand1
+    100012: HeadBand1
+    100014: InMouth1
+    100016: Leg1
+    100018: Logo1
+    100020: Shirt1
+    100022: Skin1
+    100024: Skirt1
+    100026: WaistBelt1
+    400000: Eye1
+    400002: EyeLine1
+    400004: //RootNode
+    400006: hair_new1
+    400008: Hair_old1
+    400010: Hand1
+    400012: HeadBand1
+    400014: InMouth1
+    400016: Leg1
+    400018: Logo1
+    400020: Shirt1
+    400022: Skin1
+    400024: Skirt1
+    400026: WaistBelt1
+    2100000: StingrayPBS1
+    2100002: Mat_Hair
+    2100004: StingrayPBS2
+    2300000: Eye1
+    2300002: EyeLine1
+    2300004: //RootNode
+    2300006: hair_new1
+    2300008: Hair_old1
+    2300010: Hand1
+    2300012: HeadBand1
+    2300014: InMouth1
+    2300016: Leg1
+    2300018: Logo1
+    2300020: Shirt1
+    2300022: Skin1
+    2300024: Skirt1
+    2300026: WaistBelt1
+    3300000: Eye1
+    3300002: EyeLine1
+    3300004: //RootNode
+    3300006: hair_new1
+    3300008: Hair_old1
+    3300010: Hand1
+    3300012: HeadBand1
+    3300014: InMouth1
+    3300016: Leg1
+    3300018: Logo1
+    3300020: Shirt1
+    3300022: Skin1
+    3300024: Skirt1
+    3300026: WaistBelt1
+    4300000: Shoes1
+    4300002: Leg1
+    4300004: Skirt1
+    4300006: WaistBelt1
+    4300008: InMouth1
+    4300010: Eye1
+    4300012: HeadBand1
+    4300014: EyeLine1
+    4300016: Hand1
+    4300018: Hair_old1
+    4300020: Shirt1
+    4300022: Logo1
+    4300024: Skin1
+    4300026: hair_new1
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Hair
+    second: {fileID: 2100000, guid: e7cd3199922750f439c2d4865e2867be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StingrayPBS1
+    second: {fileID: 2100000, guid: d45164f24ed04f043a258f13340abc96, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

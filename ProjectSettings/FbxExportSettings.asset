@@ -1,0 +1,45 @@
+{
+    "MonoBehaviour": {
+        "m_Enabled": true,
+        "m_EditorHideFlags": 0,
+        "m_Name": "",
+        "m_EditorClassIdentifier": "",
+        "Verbose": false,
+        "autoUpdaterEnabled": true,
+        "launchAfterInstallation": true,
+        "HideSendToUnityMenu": true,
+        "BakeAnimation": true,
+        "IntegrationSavePath": "C:\\Users\\adamc\\Documents\\obstacle-tower\\otc",
+        "selectedDCCApp": 0,
+        "prefabSavePaths": [
+            "."
+        ],
+        "fbxSavePaths": [
+            "WorldBuilding/Meshes/Moorish",
+            "WorldBuilding/Meshes",
+            "WorldBuilding/Meshes/Modern",
+            "WorldBuilding/Meshes/Ancient",
+            "WorldBuilding/Meshes/Industrial"
+        ],
+        "selectedFbxPath": 0,
+        "selectedPrefabPath": 0,
+        "dccOptionNames": [],
+        "dccOptionPaths": [],
+        "exportModelSettingsSerialize": {
+            "exportFormat": 0,
+            "rootMotionTransfer": "",
+            "animatedSkinnedMesh": false,
+            "mayaCompatibleNaming": true,
+            "include": 2,
+            "lodLevel": 0,
+            "objectPosition": 0,
+            "exportUnrendered": true
+        },
+        "convertToPrefabSettingsSerialize": {
+            "exportFormat": 0,
+            "rootMotionTransfer": "",
+            "animatedSkinnedMesh": false,
+            "mayaCompatibleNaming": true
+        }
+    }
+}

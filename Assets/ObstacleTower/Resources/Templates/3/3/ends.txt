@@ -1,0 +1,151 @@
+TX TX TX
+TX GX TX
+TX TX TX
+
+TX FX TX
+TX FX TX
+TX FX TX
+
+TX GX TX
+FX FX FX
+TX GX TX
+
+TX GX TX
+GX mX GX
+TX GX TX
+
+TX TX TX
+GX mO GX
+TX TX TX
+
+TX TX TX
+GX VO GX
+TX TX TX
+
+GX TX GX
+TX GX TX
+GX TX GX
+
+GX FX GX
+TX FX TX
+GX FX GX
+
+GX GX GX
+TX TX FO
+GX GX GX
+
+GX GX GX
+GO TX GO
+GX GX FX
+
+GX GX GX
+TX TX GO
+GX GX FX
+
+GX GX GX
+GO TX TX
+FX GX GX
+
+TX GO FX
+TX FO FX
+TX GO FX
+
+FX GO TX
+FX FO TX
+FX GO TX
+
+to tX to
+tX FO tX
+to tX to
+
+GX GX GX
+FO TX FO
+GX GX GX
+
+GX GX GX
+FO TX TX
+GX GX GX
+
+GX GX GX
+TX TX MO
+GX GX GX
+
+GX GX GX
+MO TX TX
+GX GX GX
+
+GX GX GX
+TX VX MO
+GX GX GX
+
+GX GX GX
+MO VX TX
+GX GX GX
+
+TX GO PX
+TX GO PX
+TX GO PX
+
+PX GO TX
+PX GO TX
+PX GO TX
+
+to tX to
+tX MO tX
+to tX to
+
+io iX io
+iX GO iX
+io iX io
+
+io iX io
+iX hO iX
+io iX io
+
+mX mX mo
+GX GX GX
+tX tX tX
+
+mo mX mX
+GX GX GX
+tX tX tX
+
+tX tX tX
+GX GX GX
+mo mX mX
+
+tX tX tX
+GX GX GX
+mX mX mo
+
+mo GX tX
+mX GX tX
+mX GX tX
+
+mX tX mo
+GX GX GX
+tX tX tX
+
+mX tX mX
+GX GX GX
+tX tX mo
+
+mX tX mX
+GX GX GX
+mo tX tX
+
+mX tX mX
+GX GX GX
+tX mo tX
+
+mX tX mo
+GX GX GX
+tX mX tX
+
+mo tX mX
+GX GX GX
+tX mX tX
+
+mo tX mX
+GX GX GX
+tX tX tX

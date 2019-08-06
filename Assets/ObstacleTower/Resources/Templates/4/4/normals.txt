@@ -1,0 +1,104 @@
+Vo GX GX VX
+GX Go GX GX
+GX GX Go GX
+VX GX GX Vo
+
+wo wX wX wo
+wX wo wo wX
+wX wo wo wX
+wo wX wX wo
+
+wo wX wX wo
+wX TX TX wX
+wX TX TX wX
+wo wX wX wo
+
+wo wX wX wo
+wX PX PX wX
+wX PX PX wX
+wo wX wX wo
+
+Po FX FX Po
+FX GX GX FX
+FX GX GX FX
+Po FX FX Po
+
+Mo MX MX Mo
+MX PX PX MX
+MX PX PX MX
+Mo MX MX Mo
+
+Mo MX MX Mo
+MX MX MX MX
+MX MX MX MX
+Mo MX MX Mo
+
+GX GX GX GX
+GX PX PX GX
+GX PX PX GX
+GX GX GX GX
+
+GX GX GX GX
+GX SX SX GX
+GX SX SX GX
+GX GX GX GX
+
+TX TX TX TX
+TX GX GX TX
+TX GX GX TX
+TX TX TX TX
+
+MX MX MX MX
+MX GX GX MX
+MX GX GX MX
+MX MX MX MX
+
+VX VX Vo VX
+VX GX GX VX
+VX Go GX VX
+VX VX Vo VX
+
+PX PX Po PX
+Po hX FX PX
+Po FX hX PX
+Po PX PX PX
+
+TX TX To TX
+TX Mo MX TX
+To MX Mo TX
+To TX TX To
+
+TX To TX TX
+To FX FX TX
+To FX Fo TX
+To TX To TX
+
+Go Go GX Go
+GX To TX Go
+GX To TX Go
+GX Go GX GX
+
+TX Go GX GX
+GX To GX GX
+GX GX Go GX
+GX GX GX To
+
+GX TX TX Go
+GX TX To GX
+GX GX Go GX
+GX TX TX GX
+
+Go TX TX GX
+GX GX Go GX
+GX TX To GX
+GX TX TX Go
+
+PX PX Po PX
+PX Mo MX Po
+GX Go GX Go
+GX Go GX Go
+
+FX Fo FX Fo
+FX Po PX Fo
+FX Po PX FX
+Fo FX FX FX

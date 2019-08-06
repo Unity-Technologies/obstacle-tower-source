@@ -1,0 +1,147 @@
+fileFormatVersion: 2
+guid: 98db2524d4913c843b8062dc4dde5835
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Cylinder
+    100002: Cylinder__1_
+    100004: Floor
+    100006: //RootNode
+    100008: Collider_Inner
+    100010: Collider_Outer
+    100012: Column_Inner
+    100014: Column_Outer
+    400000: Cylinder
+    400002: Cylinder__1_
+    400004: Floor
+    400006: //RootNode
+    400008: Collider_Inner
+    400010: Collider_Outer
+    400012: Column_Inner
+    400014: Column_Outer
+    2100000: AN_ST_Coursed
+    2100002: Rep_AN_ST_coursed
+    2100004: Rep_AN_ST_running
+    2100006: Rep_AN_ST_drystack_pit
+    2100008: lambert1
+    2300000: Cylinder
+    2300002: Cylinder__1_
+    2300004: Floor
+    2300006: Collider_Inner
+    2300008: Collider_Outer
+    2300010: Column_Inner
+    2300012: Column_Outer
+    2300014: //RootNode
+    3300000: Cylinder
+    3300002: Cylinder__1_
+    3300004: Floor
+    3300006: Collider_Inner
+    3300008: Collider_Outer
+    3300010: Column_Inner
+    3300012: Column_Outer
+    3300014: //RootNode
+    4300000: Floor
+    4300002: Cylinder
+    4300004: Cylinder__1_
+    4300006: PlatformLargeColumn2OscY_Floor1
+    4300008: Collider_Inner
+    4300010: Column_Outer
+    4300012: Collider_Outer
+    4300014: Column_Inner
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rep_AN_ST_coursed
+    second: {fileID: 2100000, guid: a2e82ce5838306747a1bbcc77139cf5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rep_AN_ST_drystack_pit
+    second: {fileID: 2100000, guid: b8932993fb9091342b9cfd5568bb210c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rep_AN_ST_running
+    second: {fileID: 2100000, guid: 1edae168a527ac84ea72683b386aa0a9, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

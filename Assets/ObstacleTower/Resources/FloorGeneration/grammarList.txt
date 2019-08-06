@@ -1,0 +1,9 @@
+addKey
+addKeyLock
+addLever
+addNormal
+addNormalToKey
+addPuzzle
+makeBranching
+makeLink
+moveLockBack

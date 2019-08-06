@@ -1,0 +1,259 @@
+fileFormatVersion: 2
+guid: dcb5c3494a0d3bf4e936f363a6023b83
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: arm1
+    100002: arm2
+    100004: arm2__1_
+    100006: base
+    100008: Cylinder
+    100010: Floor
+    100012: //RootNode
+    100014: Bar01
+    100016: Bar02
+    100018: GearDriver
+    100020: GearLarge1
+    100022: GearLarge2
+    100024: GearLarge3
+    100026: GearLarge4
+    100028: Pin01
+    100030: Pin02
+    100032: Pin03
+    100034: Pin04
+    100036: Rod01
+    100038: Rod02
+    100040: RodTrack01
+    100042: RodTrack02
+    100044: ShaftLower
+    100046: ShaftUpper
+    400000: arm1
+    400002: arm2
+    400004: arm2__1_
+    400006: base
+    400008: Cylinder
+    400010: Floor
+    400012: //RootNode
+    400014: Bar01
+    400016: Bar02
+    400018: GearDriver
+    400020: GearLarge1
+    400022: GearLarge2
+    400024: GearLarge3
+    400026: GearLarge4
+    400028: Pin01
+    400030: Pin02
+    400032: Pin03
+    400034: Pin04
+    400036: Rod01
+    400038: Rod02
+    400040: RodTrack01
+    400042: RodTrack02
+    400044: ShaftLower
+    400046: ShaftUpper
+    2100000: MO_ST_Drystack
+    2100002: AN_ST_Coursed
+    2100004: MO_ST_Stack
+    2100006: MO_TI_Star8
+    2100008: rep_IN_ME_RivetedIron
+    2100010: rep_IN_ME_IronFlooring
+    2100012: rep_IN_ME_ForgedBronze
+    2300000: arm1
+    2300002: arm2
+    2300004: arm2__1_
+    2300006: base
+    2300008: Cylinder
+    2300010: Floor
+    2300012: Bar01
+    2300014: Bar02
+    2300016: GearDriver
+    2300018: GearLarge1
+    2300020: GearLarge2
+    2300022: GearLarge3
+    2300024: GearLarge4
+    2300026: Pin01
+    2300028: Pin02
+    2300030: Pin03
+    2300032: Pin04
+    2300034: //RootNode
+    2300036: Rod01
+    2300038: Rod02
+    2300040: RodTrack01
+    2300042: RodTrack02
+    2300044: ShaftLower
+    2300046: ShaftUpper
+    3300000: arm1
+    3300002: arm2
+    3300004: arm2__1_
+    3300006: base
+    3300008: Cylinder
+    3300010: Floor
+    3300012: Bar01
+    3300014: Bar02
+    3300016: GearDriver
+    3300018: GearLarge1
+    3300020: GearLarge2
+    3300022: GearLarge3
+    3300024: GearLarge4
+    3300026: Pin01
+    3300028: Pin02
+    3300030: Pin03
+    3300032: Pin04
+    3300034: //RootNode
+    3300036: Rod01
+    3300038: Rod02
+    3300040: RodTrack01
+    3300042: RodTrack02
+    3300044: ShaftLower
+    3300046: ShaftUpper
+    4300000: Cylinder
+    4300002: arm1
+    4300004: arm2
+    4300006: arm2__1_
+    4300008: base
+    4300010: Floor
+    4300012: PlatformHazard1Arm
+    4300014: ShaftLower
+    4300016: GearLarge1
+    4300018: GearLarge3
+    4300020: ShaftUpper
+    4300022: GearLarge2
+    4300024: Pin02
+    4300026: GearLarge4
+    4300028: Pin04
+    4300030: RodTrack01
+    4300032: Rod02
+    4300034: Pin01
+    4300036: Bar01
+    4300038: RodTrack02
+    4300040: Rod01
+    4300042: Pin03
+    4300044: Bar02
+    4300046: GearDriver
+    7400000: PlatformHazard1Arms
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_IN_ME_ForgedBronze
+    second: {fileID: 2100000, guid: 0a3b4ca51a096db45ad32fa5d122b159, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_IN_ME_IronFlooring
+    second: {fileID: 2100000, guid: 47fa0503dc0412f48a8a5b78dc7777eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_IN_ME_RivetedIron
+    second: {fileID: 2100000, guid: f40493404a9046645b5f9d9ef0d1fd89, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: PlatformHazard1Arms
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0.59999996
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

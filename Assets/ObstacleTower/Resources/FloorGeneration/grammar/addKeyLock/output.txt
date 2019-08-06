@@ -1,0 +1,9 @@
+nodes
+0, 0, Any
+1, 1, Any
+2, 0, Key
+3, 1, Lock
+edges
+0, 2
+2, 3
+3, 1

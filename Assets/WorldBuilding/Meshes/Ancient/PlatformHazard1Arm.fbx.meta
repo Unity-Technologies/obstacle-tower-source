@@ -1,0 +1,251 @@
+fileFormatVersion: 2
+guid: 6a69a2da7f6b990458716d1c1a4c8fa1
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Arm01
+    100002: Arm02
+    100004: Cradle01
+    100006: Cradle02
+    100008: Cradle03
+    100010: Cradle04
+    100012: Cradle05
+    100014: Cradle06
+    100016: MainPost
+    100018: MainRope
+    100020: //RootNode
+    100022: Pulley01
+    100024: Pulley01 1
+    100026: Pulley02
+    100028: Pulley02 1
+    100030: Pulley02 2
+    100032: Pulley02 3
+    100034: Rope01
+    100036: Rope02
+    400000: Arm01
+    400002: Arm02
+    400004: Cradle01
+    400006: Cradle02
+    400008: Cradle03
+    400010: Cradle04
+    400012: Cradle05
+    400014: Cradle06
+    400016: MainPost
+    400018: MainRope
+    400020: //RootNode
+    400022: Pulley01
+    400024: Pulley01 1
+    400026: Pulley02
+    400028: Pulley02 1
+    400030: Pulley02 2
+    400032: Pulley02 3
+    400034: Rope01
+    400036: Rope02
+    2100000: Rep_AN_ST_running
+    2100002: Rep_AN_ST_drystack
+    2100004: Rep_AN_ST_drystack_pit
+    2100006: Rep_AN_WO_solid
+    2100008: rep_AN_ME_Bronze
+    2100010: rep_AN_RP_Rope
+    2300000: Arm01
+    2300002: Arm02
+    2300004: Cradle01
+    2300006: Cradle02
+    2300008: Cradle03
+    2300010: Cradle04
+    2300012: Cradle05
+    2300014: Cradle06
+    2300016: MainPost
+    2300018: MainRope
+    2300020: //RootNode
+    2300022: Pulley01
+    2300024: Pulley01 1
+    2300026: Pulley02
+    2300028: Pulley02 1
+    2300030: Pulley02 2
+    2300032: Pulley02 3
+    2300034: Rope01
+    2300036: Rope02
+    3300000: Arm01
+    3300002: Arm02
+    3300004: Cradle01
+    3300006: Cradle02
+    3300008: Cradle03
+    3300010: Cradle04
+    3300012: Cradle05
+    3300014: Cradle06
+    3300016: MainPost
+    3300018: MainRope
+    3300020: //RootNode
+    3300022: Pulley01
+    3300024: Pulley01 1
+    3300026: Pulley02
+    3300028: Pulley02 1
+    3300030: Pulley02 2
+    3300032: Pulley02 3
+    3300034: Rope01
+    3300036: Rope02
+    4300000: PlatformHazard1Arm_Floor
+    4300002: MainPost
+    4300004: Cradle01
+    4300006: Pulley01
+    4300008: Cradle02
+    4300010: Pulley02
+    4300012: Cradle03
+    4300014: Pulley02
+    4300016: Cradle04
+    4300018: Pulley01
+    4300020: Arm02
+    4300022: Arm01
+    4300024: Rope02
+    4300026: Rope01
+    4300028: MainRope
+    4300030: Cradle05
+    4300032: Pulley02
+    4300034: Cradle06
+    4300036: Pulley02
+    7400000: ArmExtend
+    9500000: //RootNode
+    13700000: MainRope
+    13700002: Rope01
+    13700004: Rope02
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rep_AN_ST_drystack
+    second: {fileID: 2100000, guid: f97af0ab02ac7a34d8648d60644df19e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rep_AN_ST_drystack_pit
+    second: {fileID: 2100000, guid: b8932993fb9091342b9cfd5568bb210c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rep_AN_ST_running
+    second: {fileID: 2100000, guid: 1edae168a527ac84ea72683b386aa0a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rep_AN_WO_solid
+    second: {fileID: 2100000, guid: 676561c557a1b7544b24536a784b2df4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_AN_ME_Bronze
+    second: {fileID: 2100000, guid: 04a6c4caa72dc004d81eab3db958cae9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_AN_RP_Rope
+    second: {fileID: 2100000, guid: c6097e3922632974b8e7f4e16a1208c9, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: ArmExtend
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

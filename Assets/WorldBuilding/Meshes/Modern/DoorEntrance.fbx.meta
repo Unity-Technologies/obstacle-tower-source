@@ -1,0 +1,198 @@
+fileFormatVersion: 2
+guid: 9705824dfc008084a92a2680e118fae2
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Canopy
+    100002: //RootNode
+    100004: DoorLeft
+    100006: DoorRight
+    100008: Floor
+    100010: InfillTile
+    100012: InfillWood
+    100014: WallArrowExit
+    100016: WindowFrames
+    400000: Canopy
+    400002: //RootNode
+    400004: DoorLeft
+    400006: DoorRight
+    400008: Floor
+    400010: InfillTile
+    400012: InfillWood
+    400014: WallArrowExit
+    400016: WindowFrames
+    2100000: rep_MD_CO_PanelSolid
+    2100002: rep_MD_CO_PanelFormTies
+    2100004: rep_MD_TZ_Waves
+    2100006: rep_MD_ME_Anodized_Bronze
+    2100008: rep_MD_WO_Solid
+    2100010: rep_MD_PT_WhiteSG
+    2100012: rep_MD_TI_Subway
+    2100014: rep_MD_WO_DoorInset
+    2100016: rep_MD_WO_Arrow
+    2100018: rep_MD_WO_DoorIcons
+    2100020: rep_MD_ME_Chrome
+    2300000: Canopy
+    2300002: //RootNode
+    2300004: DoorLeft
+    2300006: DoorRight
+    2300008: Floor
+    2300010: InfillTile
+    2300012: InfillWood
+    2300014: WallArrowExit
+    2300016: WindowFrames
+    3300000: Canopy
+    3300002: //RootNode
+    3300004: DoorLeft
+    3300006: DoorRight
+    3300008: Floor
+    3300010: InfillTile
+    3300012: InfillWood
+    3300014: WallArrowExit
+    3300016: WindowFrames
+    4300000: WallEntrance
+    4300002: Floor
+    4300004: WindowFrames
+    4300006: Canopy
+    4300008: InfillTile
+    4300010: InfillWood
+    4300012: WallArrowExit
+    4300014: DoorRight
+    4300016: DoorLeft
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MD_CO_PanelFormTies
+    second: {fileID: 2100000, guid: 7d6aa11f597fb1643900d91d4dbe66a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MD_CO_PanelSolid
+    second: {fileID: 2100000, guid: eedb04115538104428b036fc4dfce71b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MD_ME_Anodized_Bronze
+    second: {fileID: 2100000, guid: 1069ab15c82683d478af604f05086532, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MD_ME_Chrome
+    second: {fileID: 2100000, guid: ce6d756032e5c474f85e5a6703eceefd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MD_PT_WhiteSG
+    second: {fileID: 2100000, guid: b37daf26558021f41b15568331a79663, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MD_TI_Subway
+    second: {fileID: 2100000, guid: 2810c672d21440045b26ffbf089b5623, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MD_TZ_Waves
+    second: {fileID: 2100000, guid: f35755ee0cf5647e58ec251594774722, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MD_WO_Arrow
+    second: {fileID: 2100000, guid: 11927772964719b4e865873f2c397648, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MD_WO_DoorIcons
+    second: {fileID: 2100000, guid: 35b02b7fd9be1144a920f0254a9be067, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MD_WO_DoorInset
+    second: {fileID: 2100000, guid: 25115c3945f2309479f71b86a8adbef8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MD_WO_Solid
+    second: {fileID: 2100000, guid: 855595749f97b2b47af2a00d253c59ed, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,64 @@
+wo wX wX wo
+wX wK wo wX
+wX wo wo wX
+wo wX wX wo
+
+wo wX wo wo
+wX FK Fo wX
+wX FX Fo wX
+wo wX wo wo
+
+Po PX PX Po
+PX GK GX PX
+PX GX GX PX
+Po PX PX Po
+
+Po PX PX Po
+PX GK GX PX
+PX GX GX PX
+Po PX PX Po
+
+Go VX VX GX
+Go TK TX GX
+Go TX To GX
+Go VX VX Go
+
+Go FX Fo GX
+VX TK To VX
+VX TX To VX
+GX FX Fo Go
+
+Go FX Fo GX
+VX TK To VX
+VX To Ho VX
+GX FX Fo Go
+
+PX GX ZX GK
+PX GE PX PX
+PX GX PX PX
+PX GX YX PX
+
+PX GX ZX TK
+PX GX PX TX
+PX GX PX TX
+PX GX YX TX
+
+PX GX ZX TK
+PX PX PX TX
+PX PX PX TX
+PX GX YX TX
+
+GX GX ZX TK
+GO PX PX TO
+GX PX PX TO
+GX GX YX TO
+
+TK GX GX PX
+PO PX GX PX
+PX GX GX PX
+PX GX GX PX
+
+TK TX PX PX
+GO TE GX PX
+PX GX GX PX
+PX GX PX PX

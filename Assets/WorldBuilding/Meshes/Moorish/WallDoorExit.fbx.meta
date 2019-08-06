@@ -1,0 +1,201 @@
+fileFormatVersion: 2
+guid: 00c10a2cab3d73f4f98912d307bfdcad
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: DoorLowerLeft
+    100002: DoorLowerRight
+    100004: DoorUpperLeft
+    100006: DoorUpperRight
+    100008: FloorDoor
+    100010: //RootNode
+    100012: FloorDoorExit
+    400000: DoorLowerLeft
+    400002: DoorLowerRight
+    400004: DoorUpperLeft
+    400006: DoorUpperRight
+    400008: FloorDoor
+    400010: //RootNode
+    400012: FloorDoorExit
+    2100000: rep_MO_ST_CoursedPit
+    2100002: rep_MO_ST_Coursed
+    2100004: rep_MO_ME_DoorIcons
+    2100006: rep_MO_WO_Carved
+    2100008: rep_MO_WO_Solid
+    2100010: rep_MO_TI_Star8
+    2100012: rep_MO_ST_StackBond
+    2100014: rep_MO_TI_Star8_Arrow
+    2300000: DoorLowerLeft
+    2300002: DoorLowerRight
+    2300004: DoorUpperLeft
+    2300006: DoorUpperRight
+    2300008: FloorDoor
+    2300010: //RootNode
+    2300012: FloorDoorExit
+    3300000: DoorLowerLeft
+    3300002: DoorLowerRight
+    3300004: DoorUpperLeft
+    3300006: DoorUpperRight
+    3300008: FloorDoor
+    3300010: //RootNode
+    3300012: FloorDoorExit
+    4300000: WallDoorExit
+    4300002: FloorDoor
+    4300004: DoorLowerRight
+    4300006: DoorLowerLeft
+    4300008: DoorUpperLeft
+    4300010: DoorUpperRight
+    4300012: FloorDoorExit
+    4300014: DoorExit
+    7400000: QuadOpen
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MO_ME_DoorIcons
+    second: {fileID: 2100000, guid: 1e17338f19f011d4999c80aa13bbc349, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MO_ST_Coursed
+    second: {fileID: 2100000, guid: e4a4e9e497af9f348b01766ec24f739e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MO_ST_CoursedPit
+    second: {fileID: 2100000, guid: 8db8381eb6589e643856f5d239852891, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MO_ST_StackBond
+    second: {fileID: 2100000, guid: 2b5447634dfc20f4b84a3a9677cdfbb7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MO_TI_Star8
+    second: {fileID: 2100000, guid: d09540467047bf34592a313e9afff10a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MO_TI_Star8_Arrow
+    second: {fileID: 2100002, guid: 0a0652fef389e4e19b2e086c12849c25, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MO_WO_Carved
+    second: {fileID: 2100000, guid: ae798aa7e90b6ca4f8ed6a0c68d01981, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MO_WO_Solid
+    second: {fileID: 2100000, guid: 41350cb8682b2b24baa149bcf2efa110, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: QuadOpen
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

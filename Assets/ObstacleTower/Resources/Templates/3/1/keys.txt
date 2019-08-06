@@ -1,0 +1,71 @@
+GK GX GX
+GX GX Go
+Go GX GX
+
+Go GK Go
+GX GX GX
+GX Go Go
+
+Go GX GK
+GX Go Go
+GX GX GX
+
+Go Go Go
+GK GX GX
+GX Go Go
+
+Go GX GX
+GX GK GX
+Go Go Go
+
+GX GX GX
+GX Go GK
+Go Go GX
+
+GX GX Go
+Go Go GX
+GK GX GX
+
+GX Go Go
+Go Go Go
+Go GK GX
+
+GX GX GX
+Go Go Go
+GX GX GK
+
+sK GX Go
+Go Go GX
+GX GX Go
+
+Go sK Go
+GX GX GX
+Go Go Go
+
+Go Go sK
+Go Go Go
+Go Go Go
+
+Go Go Go
+sK Go GX
+GX GX GX
+
+GX GX GX
+GX sK GX
+GX GX GX
+
+GX Go Go
+Go GX sK
+GX GX GX
+
+GX Go Go
+Go GX GX
+sK GX GX
+
+GX GX Go
+Go Go GX
+GX sK GX
+
+GX GX Go
+Go Go GX
+GX GX sK

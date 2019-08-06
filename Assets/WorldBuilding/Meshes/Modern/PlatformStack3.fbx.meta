@@ -1,0 +1,210 @@
+fileFormatVersion: 2
+guid: 457ea05f97832a243b02965c7d53898b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: GearLarge
+    100002: PlatformCircularLarge
+    100004: PlatformCircularSmall
+    100006: PlatformLargeCollider
+    100008: PlatformSmallCollider
+    100010: //RootNode
+    100012: Railing01
+    100014: Railing02
+    100016: Railing03
+    100018: RailingCollider
+    100020: BreezeBlockWall
+    100022: PlatformKidneyLarge
+    100024: PlatformKidneyLarge_Collider
+    100026: PlatformKidneySmall
+    100028: PlatformKidneySmall_Collider
+    400000: GearLarge
+    400002: PlatformCircularLarge
+    400004: PlatformCircularSmall
+    400006: PlatformLargeCollider
+    400008: PlatformSmallCollider
+    400010: //RootNode
+    400012: Railing01
+    400014: Railing02
+    400016: Railing03
+    400018: RailingCollider
+    400020: BreezeBlockWall
+    400022: PlatformKidneyLarge
+    400024: PlatformKidneyLarge_Collider
+    400026: PlatformKidneySmall
+    400028: PlatformKidneySmall_Collider
+    2100000: IN_ME_IronFlooring
+    2100002: IN_ME_RivetedIron
+    2100004: IN_ME_ForgedBronze
+    2100006: Lightweight_Default
+    2100008: rep_MD_CO_PanelSolid
+    2100010: rep_MD_TZ_Waves
+    2100012: lambert1
+    2100014: rep_MD_ME_Chrome
+    2100016: rep_MD_WO_Solid
+    2100018: rep_MD_PT_WhiteSG
+    2100020: rep_MD_GLLitBulbWink
+    2100022: rep_MD_ME_Anodized_Bronze
+    2300000: GearLarge
+    2300002: PlatformCircularLarge
+    2300004: PlatformCircularSmall
+    2300006: PlatformLargeCollider
+    2300008: PlatformSmallCollider
+    2300010: //RootNode
+    2300012: Railing01
+    2300014: Railing02
+    2300016: Railing03
+    2300018: RailingCollider
+    2300020: BreezeBlockWall
+    2300022: PlatformKidneyLarge
+    2300024: PlatformKidneyLarge_Collider
+    2300026: PlatformKidneySmall
+    2300028: PlatformKidneySmall_Collider
+    3300000: GearLarge
+    3300002: PlatformCircularLarge
+    3300004: PlatformCircularSmall
+    3300006: PlatformLargeCollider
+    3300008: PlatformSmallCollider
+    3300010: //RootNode
+    3300012: Railing01
+    3300014: Railing02
+    3300016: Railing03
+    3300018: RailingCollider
+    3300020: BreezeBlockWall
+    3300022: PlatformKidneyLarge
+    3300024: PlatformKidneyLarge_Collider
+    3300026: PlatformKidneySmall
+    3300028: PlatformKidneySmall_Collider
+    4300000: PlatformStack3
+    4300002: GearLarge
+    4300004: PlatformCircularLarge
+    4300006: PlatformLargeCollider
+    4300008: PlatformCircularSmall
+    4300010: PlatformSmallCollider
+    4300012: Railing01
+    4300014: Railing02
+    4300016: Railing03
+    4300018: RailingCollider
+    4300020: PlatformStack3_Floor
+    4300022: BreezeBlockWall
+    4300024: PlatformKidneySmall
+    4300026: PlatformKidneySmall_Collider
+    4300028: PlatformKidneyLarge
+    4300030: PlatformKidneyLarge_Collider
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MD_CO_PanelSolid
+    second: {fileID: 2100000, guid: eedb04115538104428b036fc4dfce71b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MD_GLLitBulbWink
+    second: {fileID: 2100000, guid: db7cfa35e48b6fb4a836222ab9bd6cbe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MD_ME_Anodized_Bronze
+    second: {fileID: 2100000, guid: 1069ab15c82683d478af604f05086532, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MD_ME_Chrome
+    second: {fileID: 2100000, guid: ce6d756032e5c474f85e5a6703eceefd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MD_PT_WhiteSG
+    second: {fileID: 2100000, guid: b37daf26558021f41b15568331a79663, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MD_TZ_Waves
+    second: {fileID: 2100000, guid: f35755ee0cf5647e58ec251594774722, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MD_WO_Solid
+    second: {fileID: 2100000, guid: 855595749f97b2b47af2a00d253c59ed, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

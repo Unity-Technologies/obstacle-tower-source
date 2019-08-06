@@ -1,0 +1,34 @@
+wo wX wX wo
+wX wK wo wX
+wX wo wo wX
+wo wX wX wo
+
+wo wX wo wo
+wX FK Fo wX
+wX FX Fo wX
+wo wX wo wo
+
+Po PX PX Po
+PX GK GX PX
+PX GX GX PX
+Po PX PX Po
+
+Po PX PX Po
+PX GK GX PX
+PX GX GX PX
+Po PX PX Po
+
+Go VX VX GX
+Go TK TX GX
+Go TX To GX
+Go VX VX Go
+
+Go FX Fo GX
+VX TK To VX
+VX TX To VX
+GX FX Fo Go
+
+Go FX Fo GX
+VX TK To VX
+VX To Ho VX
+GX FX Fo Go

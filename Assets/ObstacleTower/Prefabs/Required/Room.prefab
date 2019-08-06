@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1747644250924252}
+  m_IsPrefabAsset: 1
+--- !u!1 &1747644250924252
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4380868606668236}
+  - component: {fileID: 114373498861772960}
+  m_Layer: 0
+  m_Name: Room
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4380868606668236
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1747644250924252}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.1678588, y: 4.42232, z: -0.5413006}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114373498861772960
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1747644250924252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e18d91269ae2d4a86aba78fa6e24ce6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  orbPrefab: {fileID: 1460004907776026, guid: 9e6d0c8943fcb47a694ff1f4572e0257, type: 2}
+  blockPrefab: {fileID: 1733278699927710, guid: b0e9a737b3f4e435ea4c14645714d57c,
+    type: 2}
+  blockTriggerPrefab: {fileID: 1930634271754522, guid: d16c331b963364933908067c993e1cb5,
+    type: 2}
+  keyPrefab: {fileID: 1287225533940564, guid: 9971b97d239e746b5a2a9d8ee1f1f12c, type: 2}
+  robotStaticPrefab: {fileID: 1088346606559224, guid: f61f42cc26d794b1ba9c0e429ea01ffd,
+    type: 2}
+  robotPatrolPrefab: {fileID: 1130895777297164, guid: 576e17c88ae144d26b02f40d35399885,
+    type: 2}
+  robotPatrolEndWaypointPrefab: {fileID: 1118907267004116, guid: bddea255b95304c9d919b4dfa4a96853,
+    type: 2}
+  robotChasingPrefab: {fileID: 1330538078182176, guid: 091acfb041aeb4c83a83b71f8a6a4910,
+    type: 2}
+  blockResetPrefab: {fileID: 1780222082281154, guid: e19d8c927283a40da834ab758aefe02e,
+    type: 2}
+  unlockedMaterial: {fileID: 2100000, guid: cca885103c98844ffb5fdbf5b869f2b1, type: 2}

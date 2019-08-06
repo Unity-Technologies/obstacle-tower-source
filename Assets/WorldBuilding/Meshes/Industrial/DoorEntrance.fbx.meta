@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: 4059dd8cbd5456542ab053703578590c
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Door
+    100002: //RootNode
+    100004: FloorFoundation
+    100006: GearArms2
+    100008: GearSpiral1
+    100010: GearSpoked2
+    400000: Door
+    400002: //RootNode
+    400004: FloorFoundation
+    400006: GearArms2
+    400008: GearSpiral1
+    400010: GearSpoked2
+    2100000: rep_IN_ME_RivetedIron
+    2100002: rep_IN_CO_BoardFormed
+    2100004: rep_IN_BR_Running
+    2100006: rep_IN_BR_Common
+    2100008: rep_IN_ME_DoorIcons
+    2100010: rep_IN_ME_ForgedBronze
+    2100012: rep_IN_ST_StoneBlock
+    2100014: rep_IN_ST_Pit
+    2300000: Door
+    2300002: //RootNode
+    2300004: FloorFoundation
+    2300006: GearArms2
+    2300008: GearSpiral1
+    2300010: GearSpoked2
+    3300000: Door
+    3300002: //RootNode
+    3300004: FloorFoundation
+    3300006: GearArms2
+    3300008: GearSpiral1
+    3300010: GearSpoked2
+    4300000: WallEntry
+    4300002: Door
+    4300004: GearSpiral1
+    4300006: GearArms2
+    4300008: GearSpoked2
+    4300010: FloorFoundation
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_IN_BR_Common
+    second: {fileID: 2100000, guid: 1060fe566f994bc4888e32c1acc34b3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_IN_BR_Running
+    second: {fileID: 2100000, guid: 41a527e25475f884fbc373dfef2ca0d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_IN_CO_BoardFormed
+    second: {fileID: 2100000, guid: a4c293c3c67753846b64bdc331dc7695, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_IN_ME_DoorIcons
+    second: {fileID: 2100000, guid: 43d441eddda8bef4ebd6b049deb17c3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_IN_ME_ForgedBronze
+    second: {fileID: 2100000, guid: 0a3b4ca51a096db45ad32fa5d122b159, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_IN_ME_RivetedIron
+    second: {fileID: 2100000, guid: f40493404a9046645b5f9d9ef0d1fd89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_IN_ST_Pit
+    second: {fileID: 2100000, guid: d62395006de77984baecfecfbdb8b2e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_IN_ST_StoneBlock
+    second: {fileID: 2100000, guid: 6ba59e190c360f44d9b7b309afbebda7, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

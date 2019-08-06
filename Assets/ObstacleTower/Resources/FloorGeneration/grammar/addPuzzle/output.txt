@@ -1,0 +1,7 @@
+nodes
+0, 0, Any
+1, 1, Any
+2, 0, Puzzle
+edges
+0, 2
+2, 1

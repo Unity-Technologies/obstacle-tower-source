@@ -1,0 +1,17 @@
+addNormal, 0
+addNormal, 1
+addKeyLock, 1
+addPuzzle, 1
+makeBranching, 1
+addNormal, 2
+addKeyLock, 1
+addLever, 1
+addNormalToKey, 1
+makeBranching, 1
+addNormal, 1
+addNormal, 1
+addPuzzle, 1
+makeBranching, 1
+addNormal, 1
+addKeyLock, 1
+addNormalToKey, 1

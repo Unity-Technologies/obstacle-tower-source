@@ -1,0 +1,154 @@
+fileFormatVersion: 2
+guid: bc151b045d2190d47bd539809b25dc51
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: arm1
+    100002: arm2
+    100004: base
+    100006: Cylinder
+    100008: Floor
+    100010: //RootNode
+    100012: GearLarge
+    100014: PlatformCircularLarge1
+    100016: PlatformSmallCollider
+    400000: arm1
+    400002: arm2
+    400004: base
+    400006: Cylinder
+    400008: Floor
+    400010: //RootNode
+    400012: GearLarge
+    400014: PlatformCircularLarge1
+    400016: PlatformSmallCollider
+    2100000: MO_ST_Drystack
+    2100002: MO_ST_Stack
+    2100004: MO_TI_Star8
+    2100006: rep_IN_ME_IronFlooring
+    2100008: rep_IN_ME_RivetedIron
+    2100010: rep_IN_ME_ForgedBronze
+    2100012: lambert1
+    2300000: arm1
+    2300002: arm2
+    2300004: base
+    2300006: Cylinder
+    2300008: Floor
+    2300010: GearLarge
+    2300012: PlatformCircularLarge1
+    2300014: //RootNode
+    2300016: PlatformSmallCollider
+    3300000: arm1
+    3300002: arm2
+    3300004: base
+    3300006: Cylinder
+    3300008: Floor
+    3300010: GearLarge
+    3300012: PlatformCircularLarge1
+    3300014: //RootNode
+    3300016: PlatformSmallCollider
+    4300000: Cylinder
+    4300002: arm1
+    4300004: arm2
+    4300006: base
+    4300008: Floor
+    4300010: PlatformHazard4Arm
+    4300012: GearLarge
+    4300014: PlatformSmallCollider
+    4300016: PlatformCircularLarge1
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_IN_ME_ForgedBronze
+    second: {fileID: 2100000, guid: 0a3b4ca51a096db45ad32fa5d122b159, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_IN_ME_IronFlooring
+    second: {fileID: 2100000, guid: 47fa0503dc0412f48a8a5b78dc7777eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_IN_ME_RivetedIron
+    second: {fileID: 2100000, guid: f40493404a9046645b5f9d9ef0d1fd89, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,197 @@
+fileFormatVersion: 2
+guid: 9460f29f0fb896a4a9f8d1ed9108a07e
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: GearLarge
+    100002: GearLarge6
+    100004: OuterPlatformCircular
+    100006: PlatformLargeCollider
+    100008: //RootNode
+    100010: PlatformLargeColumn2OscY_collider
+    100012: PlatformLargeColumn2OscY_Floor
+    100014: PlatformSmallCircular
+    100016: PlatformSmallCollider
+    100018: MediumPlatform
+    100020: SmallPlatform
+    100022: ColliderMediumPlatform
+    100024: ColliderSmallPlatform
+    100026: PlatformLargeColumn2OscY_floor
+    400000: GearLarge
+    400002: GearLarge6
+    400004: OuterPlatformCircular
+    400006: PlatformLargeCollider
+    400008: //RootNode
+    400010: PlatformLargeColumn2OscY_collider
+    400012: PlatformLargeColumn2OscY_Floor
+    400014: PlatformSmallCircular
+    400016: PlatformSmallCollider
+    400018: MediumPlatform
+    400020: SmallPlatform
+    400022: ColliderMediumPlatform
+    400024: ColliderSmallPlatform
+    400026: PlatformLargeColumn2OscY_floor
+    2100000: IN_ME_RivetedIron
+    2100002: IN_ME_IronFlooring
+    2100004: IN_ME_ForgedBronze
+    2100006: Lightweight_Default
+    2100008: rep_MD_TZ_Waves
+    2100010: rep_MD_CO_PanelSolid
+    2100012: rep_MD_CO_PanelFormTies
+    2100014: rep_MD_GLLitBulbWink
+    2100016: rep_MD_ME_Anodized_Bronze
+    2100018: rep_MD_PT_WhiteSG
+    2100020: lambert1
+    2300000: GearLarge
+    2300002: GearLarge6
+    2300004: OuterPlatformCircular
+    2300006: PlatformLargeCollider
+    2300008: PlatformLargeColumn2OscY_collider
+    2300010: PlatformLargeColumn2OscY_Floor
+    2300012: PlatformSmallCircular
+    2300014: PlatformSmallCollider
+    2300016: MediumPlatform
+    2300018: //RootNode
+    2300020: SmallPlatform
+    2300022: ColliderMediumPlatform
+    2300024: ColliderSmallPlatform
+    2300026: PlatformLargeColumn2OscY_floor
+    3300000: GearLarge
+    3300002: GearLarge6
+    3300004: OuterPlatformCircular
+    3300006: PlatformLargeCollider
+    3300008: PlatformLargeColumn2OscY_collider
+    3300010: PlatformLargeColumn2OscY_Floor
+    3300012: PlatformSmallCircular
+    3300014: PlatformSmallCollider
+    3300016: MediumPlatform
+    3300018: //RootNode
+    3300020: SmallPlatform
+    3300022: ColliderMediumPlatform
+    3300024: ColliderSmallPlatform
+    3300026: PlatformLargeColumn2OscY_floor
+    4300000: PlatformLargeColumn2OscY_Floor
+    4300002: OuterPlatformCircular
+    4300004: GearLarge
+    4300006: PlatformLargeCollider
+    4300008: PlatformSmallCircular
+    4300010: GearLarge6
+    4300012: PlatformSmallCollider
+    4300014: PlatformLargeColumn2OscY_collider
+    4300016: PlatformLargeColumn2OscY_floor
+    4300018: MediumPlatform
+    4300020: SmallPlatform
+    4300022: ColliderSmallPlatform
+    4300024: ColliderMediumPlatform
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MD_CO_PanelFormTies
+    second: {fileID: 2100000, guid: 7d6aa11f597fb1643900d91d4dbe66a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MD_CO_PanelSolid
+    second: {fileID: 2100000, guid: eedb04115538104428b036fc4dfce71b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MD_GLLitBulbWink
+    second: {fileID: 2100000, guid: db7cfa35e48b6fb4a836222ab9bd6cbe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MD_ME_Anodized_Bronze
+    second: {fileID: 2100000, guid: 1069ab15c82683d478af604f05086532, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MD_PT_WhiteSG
+    second: {fileID: 2100000, guid: b37daf26558021f41b15568331a79663, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MD_TZ_Waves
+    second: {fileID: 2100000, guid: f35755ee0cf5647e58ec251594774722, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

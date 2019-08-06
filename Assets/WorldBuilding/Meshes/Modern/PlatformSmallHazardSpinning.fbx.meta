@@ -1,0 +1,189 @@
+fileFormatVersion: 2
+guid: aadf426d49fc5b049beed0ec2d368b35
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: GearDriver
+    100002: //RootNode
+    100004: PlatformSmallHazardSpinningFloor
+    100006: ShaftArms
+    100008: LightArm1
+    100010: LightArm2
+    100012: LightArm3
+    100014: LightArm4
+    100016: LightArm5
+    100018: LightPoleMain
+    100020: SignArm1
+    100022: SignArm2
+    100024: SignArm3
+    100026: SignArm4
+    100028: SignArm5
+    400000: GearDriver
+    400002: //RootNode
+    400004: PlatformSmallHazardSpinningFloor
+    400006: ShaftArms
+    400008: LightArm1
+    400010: LightArm2
+    400012: LightArm3
+    400014: LightArm4
+    400016: LightArm5
+    400018: LightPoleMain
+    400020: SignArm1
+    400022: SignArm2
+    400024: SignArm3
+    400026: SignArm4
+    400028: SignArm5
+    2100000: IN_ME_RivetedIron
+    2100002: IN_ME_IronFlooring
+    2100004: IN_ME_ForgedBronze
+    2100006: rep_MD_CO_PanelSolid
+    2100008: rep_MD_TZ_Waves
+    2100010: rep_MD_Gl_LitWhite
+    2100012: rep_MD_ME_Chrome
+    2300000: GearDriver
+    2300002: PlatformSmallHazardSpinningFloor
+    2300004: ShaftArms
+    2300006: LightArm1
+    2300008: LightArm2
+    2300010: LightArm3
+    2300012: LightArm4
+    2300014: LightArm5
+    2300016: LightPoleMain
+    2300018: //RootNode
+    2300020: SignArm1
+    2300022: SignArm2
+    2300024: SignArm3
+    2300026: SignArm4
+    2300028: SignArm5
+    3300000: GearDriver
+    3300002: PlatformSmallHazardSpinningFloor
+    3300004: ShaftArms
+    3300006: LightArm1
+    3300008: LightArm2
+    3300010: LightArm3
+    3300012: LightArm4
+    3300014: LightArm5
+    3300016: LightPoleMain
+    3300018: //RootNode
+    3300020: SignArm1
+    3300022: SignArm2
+    3300024: SignArm3
+    3300026: SignArm4
+    3300028: SignArm5
+    4300000: PlatformSmallHazardSpinningFloor
+    4300002: GearDriver
+    4300004: ShaftArms
+    4300006: PlatformSmallHazardSpinning_Floor
+    4300008: LightPoleMain
+    4300010: LightArm2
+    4300012: LightArm5
+    4300014: LightArm1
+    4300016: LightArm4
+    4300018: LightArm3
+    4300020: SignArm1
+    4300022: SignArm2
+    4300024: SignArm3
+    4300026: SignArm4
+    4300028: SignArm5
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MD_CO_PanelSolid
+    second: {fileID: 2100000, guid: eedb04115538104428b036fc4dfce71b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MD_Gl_LitWhite
+    second: {fileID: 2100000, guid: 48ff0a34ab319e045b4cb4bfc92ebc47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MD_ME_Chrome
+    second: {fileID: 2100000, guid: ce6d756032e5c474f85e5a6703eceefd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_MD_TZ_Waves
+    second: {fileID: 2100000, guid: f35755ee0cf5647e58ec251594774722, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

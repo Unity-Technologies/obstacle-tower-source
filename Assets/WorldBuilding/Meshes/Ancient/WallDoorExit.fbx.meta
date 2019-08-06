@@ -1,0 +1,189 @@
+fileFormatVersion: 2
+guid: 05e70a3eab531f041af26badef26a066
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: FloorDoorExit
+    100002: //RootNode
+    100004: ExitDoorLeft
+    100006: ExitDoorRight
+    100008: Arrow
+    400000: FloorDoorExit
+    400002: //RootNode
+    400004: ExitDoorLeft
+    400006: ExitDoorRight
+    400008: Arrow
+    2100000: Rep_AN_ST_StoneDoorKey
+    2100002: Rep_AN_ST_coursed
+    2100004: Rep_AN_ST_running
+    2100006: Rep_AN_ST_drystack_pit
+    2100008: Rep_AN_ST_Pit
+    2100010: rep_AN_ST_CoursedBrown
+    2100012: Rep_AN_ST_StoneArrow
+    2300000: FloorDoorExit
+    2300002: //RootNode
+    2300004: ExitDoorLeft
+    2300006: ExitDoorRight
+    2300008: Arrow
+    3300000: FloorDoorExit
+    3300002: //RootNode
+    3300004: ExitDoorLeft
+    3300006: ExitDoorRight
+    3300008: Arrow
+    4300000: WallDoorExit
+    4300002: FloorDoorExit
+    4300004: ExitDoorRight
+    4300006: ExitDoorLeft
+    4300008: Arrow
+    7400000: TeethOpenTwo
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rep_AN_ST_Pit
+    second: {fileID: 2100000, guid: 89167dc215551c343b0ef0057c670253, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rep_AN_ST_StoneArrow
+    second: {fileID: 2100000, guid: 900316c2b89ddc5429f7f91ad643a0cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rep_AN_ST_StoneDoorKey
+    second: {fileID: 2100000, guid: bac71996f7d5e7245b680851b078ce1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rep_AN_ST_coursed
+    second: {fileID: 2100000, guid: a2e82ce5838306747a1bbcc77139cf5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rep_AN_ST_drystack_pit
+    second: {fileID: 2100000, guid: b8932993fb9091342b9cfd5568bb210c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rep_AN_ST_running
+    second: {fileID: 2100000, guid: 1edae168a527ac84ea72683b386aa0a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rep_AN_ST_CoursedBrown
+    second: {fileID: 2100000, guid: 37faa244d289173428e404e10ed94e93, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: TeethOpenTwo
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

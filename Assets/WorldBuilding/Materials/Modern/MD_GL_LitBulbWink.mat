@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: MD_GL_LitBulbWink
+  m_Shader: {fileID: 4800000, guid: a476b9ff6a7c385449b543e92e86f2f7, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_8093F0F7:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_995769C9:
+        m_Texture: {fileID: 2800000, guid: a93b59acd51760c4986a43767172aa63, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - Color_6EEC1EFB: {r: 0.57547164, g: 0.57547164, b: 0.57547164, a: 0}
+    - Color_FDCA82C4: {r: 0.92300004, g: 0.80993253, b: 0.60641104, a: 0}
+    - Color_FF63EE7A: {r: 1, g: 0.9591666, b: 0.902, a: 1}

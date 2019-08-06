@@ -1,0 +1,17 @@
+addNormal, 0
+addNormal, 1
+addNormal, 1
+addNormal, 1
+makeBranching, 1
+addNormal, 2
+addNormal, 1
+addLever, 1
+addNormal, 1
+makeBranching, 1
+addNormal, 1
+addNormal, 1
+addNormal, 1
+makeBranching, 1
+addNormal, 1
+addNormal, 1
+addNormal, 1
