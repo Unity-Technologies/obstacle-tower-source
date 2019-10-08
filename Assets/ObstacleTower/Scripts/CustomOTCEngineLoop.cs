@@ -21,7 +21,6 @@ public class CustomOTCEngineLoop : MonoBehaviour
         RemoveEngineLoopSystem<Initialization.XREarlyUpdate>(ref defaultPlayerLoop);
         RemoveEngineLoopSystem<EarlyUpdate.AnalyticsCoreStatsUpdate>(ref defaultPlayerLoop);
         RemoveEngineLoopSystem<EarlyUpdate.UnityWebRequestUpdate>(ref defaultPlayerLoop);
-        RemoveEngineLoopSystem<EarlyUpdate.UpdateAllUnityWebStreams>(ref defaultPlayerLoop);
         RemoveEngineLoopSystem<EarlyUpdate.XRUpdate>(ref defaultPlayerLoop);
         RemoveEngineLoopSystem<EarlyUpdate.ProcessRemoteInput>(ref defaultPlayerLoop);
         RemoveEngineLoopSystem<EarlyUpdate.TangoUpdate>(ref defaultPlayerLoop);

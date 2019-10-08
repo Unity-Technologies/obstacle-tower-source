@@ -71,7 +71,7 @@ public class UIController : MonoBehaviour
     {
         floorBuilder.floorNumber = 0;
         var agent = floorBuilder.agent.GetComponent<ObstacleTowerAgent>();
-        academy.Done();
+        agent.Done();
     }
 
     public void ResetAnimation()

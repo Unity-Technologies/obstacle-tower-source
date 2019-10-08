@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEditor;
 
 namespace MLAgents
@@ -16,9 +16,9 @@ namespace MLAgents
         public override void OnInspectorGUI()
         {
             EditorGUILayout.LabelField("Heuristic Brain", EditorStyles.boldLabel);
-            var brain = (HeuristicBrain) target;
+            var brain = (HeuristicBrain)target;
             base.OnInspectorGUI();
-            
+
             // Expose the Heuristic Brain's Monoscript for decision in a drag and drop box.
             brain.decisionScript = EditorGUILayout.ObjectField(
                 "Decision Script", brain.decisionScript, typeof(MonoScript), true) as MonoScript;
@@ -47,7 +47,7 @@ namespace MLAgents
                 {
                     Debug.LogError(
                         "Instance of " + brain.decisionScript.name + " couldn't be created. " +
-                        "The the script class needs to derive from Decision.");
+                        "The script class needs to derive from Decision.");
                     brain.decisionScript = null;
                 }
             }
