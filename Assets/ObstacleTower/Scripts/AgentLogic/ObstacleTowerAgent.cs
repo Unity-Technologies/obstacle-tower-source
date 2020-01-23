@@ -316,7 +316,7 @@ public class ObstacleTowerAgent : Agent
         }
     }
 
-    public override void AgentAction(float[] vectorAction, string textAction)
+    public override void AgentAction(float[] vectorAction)
     {
         foreach (var col in _collisions)
         {

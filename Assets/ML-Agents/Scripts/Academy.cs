@@ -92,23 +92,24 @@ namespace MLAgents
         "docs/Learning-Environment-Design-Academy.md")]
     public abstract class Academy : MonoBehaviour
     {
-        private const string k_ApiVersion = "API-11";
+        const string k_ApiVersion = "API-12";
+        const int k_EditorTrainingPort = 5004;
 
         /// Temporary storage for global gravity value
         /// Used to restore oringal value when deriving Academy modifies it
-        private Vector3 m_OriginalGravity;
+        Vector3 m_OriginalGravity;
 
         /// Temporary storage for global fixedDeltaTime value
         /// Used to restore original value when deriving Academy modifies it
-        private float m_OriginalFixedDeltaTime;
+        float m_OriginalFixedDeltaTime;
 
         /// Temporary storage for global maximumDeltaTime value
         /// Used to restore original value when deriving Academy modifies it
-        private float m_OriginalMaximumDeltaTime;
+        float m_OriginalMaximumDeltaTime;
 
         // Fields provided in the Inspector
 
-        [FormerlySerializedAs("maxSteps")]
+        [FormerlySerializedAs("trainingConfiguration")]
         [SerializeField]
         [Tooltip("The engine-level settings which correspond to rendering " +
             "quality and engine speed during Training.")]
@@ -153,7 +154,7 @@ namespace MLAgents
 
         /// If true, the Academy will use inference settings. This field is
         /// initialized in <see cref="Awake"/> depending on the presence
-        /// or absence of a communicator. Furthermore, it can be modified during 
+        /// or absence of a communicator. Furthermore, it can be modified during
         /// training via <see cref="SetIsInference"/>.
         bool m_IsInference = true;
 
@@ -178,19 +179,19 @@ namespace MLAgents
         /// Pointer to the communicator currently in use by the Academy.
         public ICommunicator Communicator;
 
-        private bool m_Initialized;
-        private List<ModelRunner> m_ModelRunners = new List<ModelRunner>();
+        bool m_Initialized;
+        List<ModelRunner> m_ModelRunners = new List<ModelRunner>();
 
         // Flag used to keep track of the first time the Academy is reset.
         bool m_FirstAcademyReset;
 
-        // The Academy uses a series of events to communicate with agents 
+        // The Academy uses a series of events to communicate with agents
         // to facilitate synchronization. More specifically, it ensure
         // that all the agents performs their steps in a consistent order (i.e. no
         // agent can act based on a decision before another agent has had a chance
         // to request a decision).
 
-        // Signals to all the Agents at each environment step so they can use 
+        // Signals to all the Agents at each environment step so they can use
         // their Policy to decide on their next action.
         public event System.Action DecideAction;
 
@@ -240,7 +241,7 @@ namespace MLAgents
         }
 
         // Used to read Python-provided environment parameters
-        private static int ReadArgs()
+        static int ReadPortFromArgs()
         {
             var args = System.Environment.GetCommandLineArgs();
             var inputPort = "";
@@ -252,13 +253,28 @@ namespace MLAgents
                 }
             }
 
-            return int.Parse(inputPort);
+            try
+            {
+                return int.Parse(inputPort);
+            }
+            catch
+            {
+                // No arg passed, or malformed port number.
+#if UNITY_EDITOR
+                // Try connecting on the default editor port
+                return k_EditorTrainingPort;
+#else
+                // This is an executable, so we don't try to connect.
+                return -1;
+#endif
+            }
+
         }
 
         /// <summary>
         /// Initializes the environment, configures it and initialized the Academy.
         /// </summary>
-        private void InitializeEnvironment()
+        void InitializeEnvironment()
         {
             m_OriginalGravity = Physics.gravity;
             m_OriginalFixedDeltaTime = Time.fixedDeltaTime;
@@ -267,23 +283,15 @@ namespace MLAgents
             InitializeAcademy();
 
             // Try to launch the communicator by using the arguments passed at launch
-            try
+            var port = ReadPortFromArgs();
+            if (port > 0)
             {
                 Communicator = new RpcCommunicator(
                     new CommunicatorInitParameters
                     {
-                        port = ReadArgs()
-                    });
-            }
-            catch
-            {
-#if UNITY_EDITOR
-                Communicator = new RpcCommunicator(
-                    new CommunicatorInitParameters
-                    {
-                        port = 5004
-                    });
-#endif
+                        port = port
+                    }
+                );
             }
 
             if (Communicator != null)
@@ -308,6 +316,10 @@ namespace MLAgents
                 }
                 catch
                 {
+                    Debug.Log($"" +
+                        $"Couldn't connect to trainer on port {port} using API version {k_ApiVersion}. " +
+                        "Will perform inference instead."
+                    );
                     Communicator = null;
                 }
 
@@ -344,7 +356,7 @@ namespace MLAgents
             Application.Quit();
         }
 
-        private void OnResetCommand(EnvironmentResetParameters newResetParameters)
+        void OnResetCommand(EnvironmentResetParameters newResetParameters)
         {
             UpdateResetParameters(newResetParameters);
             ForcedFullReset();
@@ -355,7 +367,7 @@ namespace MLAgents
             m_IsInference = !inputParams.isTraining;
         }
 
-        private void UpdateResetParameters(EnvironmentResetParameters newResetParameters)
+        void UpdateResetParameters(EnvironmentResetParameters newResetParameters)
         {
             if (newResetParameters.resetParameters != null)
             {
@@ -568,13 +580,13 @@ namespace MLAgents
         }
 
         /// <summary>
-        /// Creates or retrieves an existing ModelRunner that uses the same 
+        /// Creates or retrieves an existing ModelRunner that uses the same
         /// NNModel and the InferenceDevice as provided.
         /// </summary>
         /// <param name="model"> The NNModel the ModelRunner must use </param>
-        /// <param name="brainParameters"> The brainParameters used to create 
+        /// <param name="brainParameters"> The brainParameters used to create
         /// the ModelRunner </param>
-        /// <param name="inferenceDevice"> The inference device (CPU or GPU) 
+        /// <param name="inferenceDevice"> The inference device (CPU or GPU)
         /// the ModelRunner will use </param>
         /// <returns> The ModelRunner compatible with the input settings</returns>
         public ModelRunner GetOrCreateModelRunner(
