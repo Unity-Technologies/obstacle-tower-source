@@ -10,7 +10,6 @@ using MLAgents;
 [RequireComponent(typeof(AgentAnimator))]
 public class ObstacleTowerAgent : Agent
 {
-    public Brain playerBrain;
     public FloorBuilder floorBuilder;
     public KeyController keyController;
     public Transform cameraPivot; //the object that contains the camera
@@ -68,6 +67,42 @@ public class ObstacleTowerAgent : Agent
         AddVectorObs(keyController.currentNumberOfKeys, 6);
         AddVectorObs(episodeTime);
         AddVectorObs(floorBuilder.floorNumber);
+    }
+
+    public override float[] Heuristic()
+    {
+        var action = new float[4];
+        // Action dimension 0 (Movement Forward/Back)
+        if(Input.GetKey(KeyCode.W))
+            action[0] = 1;
+        else if(Input.GetKey(KeyCode.S))
+            action[0] = 2;
+        else
+            action[0] = 0;
+
+        // Action dimension 1 (Camera)
+        if (Input.GetKey(KeyCode.K))
+            action[1] = 1;
+        else if (Input.GetKey(KeyCode.L))
+            action[1] = 2;
+        else
+            action[1] = 0;
+
+        // Action dimension 2 (Jump)
+        if (Input.GetKey(KeyCode.Space))
+            action[2] = 1;
+        else
+            action[2] = 0;
+
+        // Action dimension 3 (Movement Left/Right)
+        if (Input.GetKey(KeyCode.D))
+            action[3] = 1;
+        else if (Input.GetKey(KeyCode.A))
+            action[3] = 2;
+        else
+            action[3] = 0;
+
+        return action;
     }
 
     private void PickUpKey(GameObject key)

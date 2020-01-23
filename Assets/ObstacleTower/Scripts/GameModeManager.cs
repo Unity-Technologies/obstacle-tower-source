@@ -23,8 +23,6 @@ public class GameModeManager : MonoBehaviour
 		if (playMode)
 		{
 			Debug.Log("In play mode");
-			academy.broadcastHub.Clear();
-			agent.brain = agent.playerBrain;
 		}
 		academy.enabled = true;
 		agent.enabled = true;
