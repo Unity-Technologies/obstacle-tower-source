@@ -120,9 +120,17 @@ public class ObstacleTowerAcademy : Academy
     {
         Debug.Log("Academy resetting");
         agentComponent.denseReward = Mathf.Clamp((int)FloatProperties.GetPropertyWithDefault("dense-reward", 1), 0, 1) != 0;
-        //EnableInference();
-        //EnableTraining();
-        
+
+        // If the communicator to Python is not on, inference mode is used
+        if (!IsCommunicatorOn)
+        {
+            EnableInference();
+        }
+        else
+        {
+            EnableTraining();
+        }
+
         var towerSeed = Mathf.Clamp((int)FloatProperties.GetPropertyWithDefault("tower-seed", -1), -1, MaxSeed);
         var totalFloors = Mathf.Clamp((int)FloatProperties.GetPropertyWithDefault("total-floors", 100), 1, MaxFloors);
         var startingFloor = Mathf.Clamp((int)FloatProperties.GetPropertyWithDefault("starting-floor", 0), 0, totalFloors);
