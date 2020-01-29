@@ -719,43 +719,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19039a5d777ad44878ae542b5475c040, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TrainingConfiguration:
-    width: 80
-    height: 80
-    qualityLevel: 1
-    timeScale: 100
-    targetFrameRate: -1
-  m_InferenceConfiguration:
-    width: 1280
-    height: 720
-    qualityLevel: 0
-    timeScale: 1
-    targetFrameRate: -1
-  resetParameters:
-    m_ResetParameters:
-    - key: tower-seed
-      value: -1
-    - key: starting-floor
-      value: 0
-    - key: dense-reward
-      value: 1
-    - key: lighting-type
-      value: 1
-    - key: visual-theme
-      value: 1
-    - key: agent-perspective
-      value: 1
-    - key: allowed-rooms
-      value: 2
-    - key: allowed-modules
-      value: 2
-    - key: allowed-floors
-      value: 2
-    - key: total-floors
-      value: 100
-    - key: default-theme
-      value: 0
   floor: {fileID: 1180551705}
+  towerSeed: -1
+  startingFloor: 0
+  totalFloors: 100
+  denseReward: 1
+  lightningType: 1
+  visualTheme: 1
+  agentPerspective: 1
+  allowedRooms: 2
+  allowedModules: 2
+  allowedFloors: 2
+  defaultTheme: 0
 --- !u!4 &1774455169
 Transform:
   m_ObjectHideFlags: 0
