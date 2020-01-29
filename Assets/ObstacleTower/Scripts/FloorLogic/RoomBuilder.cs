@@ -117,7 +117,9 @@ public class RoomBuilder : MonoBehaviour
             item.transform.position = new Vector3(x * ModuleSize, 0.5f, z * ModuleSize) + transform.position;
             AdjustObjectRotation(x, z, item);
 
-            if (itemType == ItemTypes.Key || itemType == ItemTypes.Orb || itemType == ItemTypes.Block)
+            if (itemType == ItemTypes.Key || itemType == ItemTypes.Orb ||
+                itemType == ItemTypes.Block || itemType == ItemTypes.BlockReset ||
+                itemType == ItemTypes.BlockTrigger)
             {
                 if ((ModuleTypes) room.moduleGrid[x, z] == ModuleTypes.PlatformTall)
                 {
