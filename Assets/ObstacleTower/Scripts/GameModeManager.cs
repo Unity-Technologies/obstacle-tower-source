@@ -2,7 +2,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using MLAgents;
+using Unity.MLAgents;
+using Unity.MLAgents.Policies;
 using UnityEngine;
 
 /// <summary>
@@ -15,16 +16,22 @@ public class GameModeManager : MonoBehaviour
 	private void Awake ()
 	{
 		var agent = GameObject.FindWithTag("agent").GetComponent<ObstacleTowerAgent>();
-		var academy = GameObject.FindWithTag("academy").GetComponent<ObstacleTowerAcademy>();
+		var academy = GameObject.FindWithTag("academy").GetComponent<ObstacleTowerManager>();
 		var devTools = GameObject.FindWithTag("debug");
 
-		var portArgExists = Environment.GetCommandLineArgs().Contains("--port");
+		var portArgExists = Environment.GetCommandLineArgs().Contains("--mlagents-port");
 		var playMode = !portArgExists && !EnableEditorTraining;
-		if (playMode)
+        
+        if (playMode)
 		{
 			Debug.Log("In play mode");
-			academy.broadcastHub.Clear();
-			agent.brain = agent.playerBrain;
+            agent.GetComponent<BehaviorParameters>().BehaviorType = BehaviorType.HeuristicOnly;
+            academy.InferenceOn = true;
+        }
+		else
+		{
+			agent.GetComponent<BehaviorParameters>().BehaviorType = BehaviorType.Default;
+            academy.InferenceOn = false;
 		}
 		academy.enabled = true;
 		agent.enabled = true;

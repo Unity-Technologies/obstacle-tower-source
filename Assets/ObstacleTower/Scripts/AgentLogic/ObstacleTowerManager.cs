@@ -1,6 +1,6 @@
 ﻿using System;
 using UnityEngine;
-using MLAgents;
+using Unity.MLAgents;
 using Debug = UnityEngine.Debug;
 using UnityEngine.Rendering;
 
@@ -9,33 +9,37 @@ using UnityEngine.Rendering;
 /// Academy for Obstacle Tower.
 /// Responsible for reading relevant reset parameters, and evaluation logic.
 /// </summary>
-public class ObstacleTowerAcademy : Academy
+public class ObstacleTowerManager : MonoBehaviour
 {
     public FloorBuilder floor;
 
     public const int MaxSeed = 99999;
     public const int MaxFloors = 100;
-    
+
+    [HideInInspector]
+    public bool InferenceOn = false;
+
     private ObstacleTowerAgent agentComponent;
     
-    public override void InitializeAcademy()
+    public void Awake()
     {
         floor.environmentParameters = new EnvironmentParameters();
         
         agentComponent = FindObjectOfType<ObstacleTowerAgent>();
         GraphicsSettings.useScriptableRenderPipelineBatching = true;
+        Academy.Instance.OnEnvironmentReset += ResetTower;
     }
     
     private void EnableInference()
     {
-        SetIsInference(true);
+        InferenceOn = true;
         agentComponent.SetInference();
         Time.captureFramerate = 0;
     }
 
     private void EnableTraining()
     {
-        SetIsInference(false);
+        InferenceOn = false;
         agentComponent.SetTraining();
         Time.captureFramerate = 60;
     }
@@ -53,63 +57,70 @@ public class ObstacleTowerAcademy : Academy
 
     private void UpdateEnvironmentParameters()
     {
-        if (Enum.IsDefined(typeof(LightingType), (int)resetParameters["lighting-type"]))
+        var lightType = (int)Academy.Instance.EnvironmentParameters.GetWithDefault("lighting-type", (int)LightingType.Dynamic);
+        if (Enum.IsDefined(typeof(LightingType), lightType))
         {
-            floor.environmentParameters.lightingType = (LightingType) resetParameters["lighting-type"];
+            floor.environmentParameters.lightingType = (LightingType) lightType;
         }
         else
         {
             Debug.Log("lighting-type outside of valid range. Using default value.");
         }
-        
-        if (Enum.IsDefined(typeof(VisualThemeParameter), (int)resetParameters["visual-theme"]))
+
+        var visTheme = (int)Academy.Instance.EnvironmentParameters.GetWithDefault("visual-theme", (int)VisualThemeParameter.Serial);
+        if (Enum.IsDefined(typeof(VisualThemeParameter), visTheme))
         {
-            floor.environmentParameters.themeParameter = (VisualThemeParameter) resetParameters["visual-theme"];
+            floor.environmentParameters.themeParameter = (VisualThemeParameter) visTheme;
         }
         else
         {
             Debug.Log("visual-theme outside of valid range. Using default value.");
         }
         
-        if (Enum.IsDefined(typeof(AgentPerspective), (int)resetParameters["agent-perspective"]))
+        var perspective = (int)Academy.Instance.EnvironmentParameters.GetWithDefault("perspective", (int)AgentPerspective.ThirdPerson);
+        if (Enum.IsDefined(typeof(AgentPerspective), perspective))
         {
-            floor.environmentParameters.agentPerspective = (AgentPerspective) resetParameters["agent-perspective"];
+            floor.environmentParameters.agentPerspective = (AgentPerspective) perspective;
         }
         else
         {
             Debug.Log("agent-perspective outside of valid range. Using default value.");
         }
         
-        if (Enum.IsDefined(typeof(AllowedRoomTypes), (int)resetParameters["allowed-rooms"]))
+        var allowedRooms = (int)Academy.Instance.EnvironmentParameters.GetWithDefault("allowed-rooms", (int)AllowedRoomTypes.PlusPuzzle);
+        if (Enum.IsDefined(typeof(AllowedRoomTypes), allowedRooms))
         {
-            floor.environmentParameters.allowedRoomTypes = (AllowedRoomTypes) resetParameters["allowed-rooms"];
+            floor.environmentParameters.allowedRoomTypes = (AllowedRoomTypes) allowedRooms;
         }
         else
         {
             Debug.Log("allowed-rooms outside of valid range. Using default value.");
         }
         
-        if (Enum.IsDefined(typeof(AllowedRoomModules), (int)resetParameters["allowed-modules"]))
+        var allowedModules = (int)Academy.Instance.EnvironmentParameters.GetWithDefault("allowed-modules", (int)AllowedRoomModules.All);
+        if (Enum.IsDefined(typeof(AllowedRoomModules), allowedModules))
         {
-            floor.environmentParameters.allowedRoomModules = (AllowedRoomModules) resetParameters["allowed-modules"];
+            floor.environmentParameters.allowedRoomModules = (AllowedRoomModules) allowedModules;
         }
         else
         {
             Debug.Log("allowed-modules outside of valid range. Using default value.");
         }
         
-        if (Enum.IsDefined(typeof(AllowedFloorLayouts), (int)resetParameters["allowed-modules"]))
+        var allowedFloors = (int)Academy.Instance.EnvironmentParameters.GetWithDefault("allowed-floors", (int)AllowedFloorLayouts.PlusCircling);
+        if (Enum.IsDefined(typeof(AllowedFloorLayouts), allowedFloors))
         {
-            floor.environmentParameters.allowedFloorLayouts = (AllowedFloorLayouts) resetParameters["allowed-floors"];
+            floor.environmentParameters.allowedFloorLayouts = (AllowedFloorLayouts) allowedFloors;
         }
         else
         {
             Debug.Log("allowed-floors outside of valid range. Using default value.");
         }
         
-        if (Enum.IsDefined(typeof(VisualTheme), (int)resetParameters["default-theme"]))
+        var defaultTheme = (int)Academy.Instance.EnvironmentParameters.GetWithDefault("default-theme", (int)VisualTheme.Ancient);
+        if (Enum.IsDefined(typeof(VisualTheme), defaultTheme))
         {
-            floor.environmentParameters.defaultTheme = (VisualTheme) resetParameters["default-theme"];
+            floor.environmentParameters.defaultTheme = (VisualTheme) defaultTheme;
         }
         else
         {
@@ -117,11 +128,11 @@ public class ObstacleTowerAcademy : Academy
         }
     }
 
-    public override void AcademyReset()
+    public void ResetTower()
     {
-        Debug.Log("Academy resetting");
-        agentComponent.denseReward = Mathf.Clamp((int) resetParameters["dense-reward"], 0, 1) != 0;
-        if (GetIsInference())
+        Debug.Log("Tower resetting");
+        agentComponent.denseReward = Mathf.Clamp((int) Academy.Instance.EnvironmentParameters.GetWithDefault("dense-reward",0), 0, 1) != 0;
+        if (InferenceOn)
         {
             EnableInference();
         }
@@ -130,9 +141,9 @@ public class ObstacleTowerAcademy : Academy
             EnableTraining();
         }
         
-        var towerSeed = Mathf.Clamp((int) resetParameters["tower-seed"], -1, MaxSeed);
-        var totalFloors = Mathf.Clamp((int) resetParameters["total-floors"], 1, MaxFloors);
-        var startingFloor = Mathf.Clamp((int) resetParameters["starting-floor"], 0, totalFloors);
+        var towerSeed = Mathf.Clamp((int) Academy.Instance.EnvironmentParameters.GetWithDefault("tower-seed",-1), -1, MaxSeed);
+        var totalFloors = Mathf.Clamp((int) Academy.Instance.EnvironmentParameters.GetWithDefault("total-floors", MaxFloors), 1, MaxFloors);
+        var startingFloor = Mathf.Clamp((int) Academy.Instance.EnvironmentParameters.GetWithDefault("starting-floor",0), 0, totalFloors);
         
         UpdateEnvironmentParameters();
         

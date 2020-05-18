@@ -54,10 +54,7 @@ public class Projectile : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (
-            (agent && agent.IsDone()) //if the agent is done projectiles can die
-            || aliveTime > maxTimeToLive //we lived too long. time to die 
-        )
+        if (aliveTime > maxTimeToLive) //we lived too long. time to die 
         {
             selfDestructNow = true;
         }
