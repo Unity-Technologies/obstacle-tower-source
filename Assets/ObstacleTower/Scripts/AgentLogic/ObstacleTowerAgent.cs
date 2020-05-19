@@ -111,7 +111,6 @@ public class ObstacleTowerAgent : Agent
 
     private void OnCollisionEnter(Collision col)
     {
-        // if (IsDone()) return;
         _collisions.Add(col);
     }
 
@@ -328,11 +327,7 @@ public class ObstacleTowerAgent : Agent
 
         _collisions.Clear();
 
-        // if (!IsDone())
-        // {
-        //     CheckOutOfBounds();
-        //     CheckTimeout();
-        // }
+        CheckTimeout();
 
         MoveAgent(vectorAction);
         if (runTimer)
