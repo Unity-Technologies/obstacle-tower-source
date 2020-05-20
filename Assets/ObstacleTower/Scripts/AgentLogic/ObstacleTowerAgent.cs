@@ -327,6 +327,7 @@ public class ObstacleTowerAgent : Agent
 
         _collisions.Clear();
 
+        CheckOutOfBounds();
         CheckTimeout();
 
         MoveAgent(vectorAction);
