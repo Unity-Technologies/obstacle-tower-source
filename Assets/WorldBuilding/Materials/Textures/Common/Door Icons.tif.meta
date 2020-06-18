@@ -1,12 +1,18 @@
 fileFormatVersion: 2
 guid: 8477408ab0bf431468406505db4188a0
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Door Icons_0
-    21300002: Door Icons_Regular
-    21300004: Door Icons_Key
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Door Icons_0
+  - first:
+      213: 21300002
+    second: Door Icons_Regular
+  - first:
+      213: 21300004
+    second: Door Icons_Key
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -60,8 +66,9 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 512
     resizeAlgorithm: 0
@@ -72,7 +79,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 512
     resizeAlgorithm: 0
@@ -83,39 +91,43 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: iPhone
-    maxTextureSize: 8192
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Android
-    maxTextureSize: 8192
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Windows Store Apps
-    maxTextureSize: 8192
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -135,6 +147,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 12ac11640fee8ad4c90f06766bb56e78
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -155,6 +168,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 677b9fc19cce6644b9ace34a680e4635
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -175,6 +189,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: b19b8fc4be30b204e9b9f32c6120ede0
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -183,10 +198,12 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 2efa3cc6650225347a9a0147ce99575d
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -12,10 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf2edee5c58d82540a51f03df9d42094, type: 3}
   m_Name: LWRPSettings
   m_EditorClassIdentifier: 
-  k_AssetVersion: 4
+  k_AssetVersion: 5
+  k_AssetPreviousVersion: 5
+  m_RendererType: 1
+  m_RendererData: {fileID: 0}
+  m_RendererDataList:
+  - {fileID: 11400000, guid: a032d6e9d4ff7483e8cd70cf66b3a0e6, type: 2}
+  m_DefaultRendererIndex: 0
   m_RequireDepthTexture: 0
   m_RequireOpaqueTexture: 0
   m_OpaqueDownsampling: 1
+  m_SupportsTerrainHoles: 1
   m_SupportsHDR: 0
   m_MSAA: 1
   m_RenderScale: 1
@@ -33,12 +40,16 @@ MonoBehaviour:
   m_ShadowDepthBias: 1
   m_ShadowNormalBias: 1
   m_SoftShadowsSupported: 1
+  m_UseSRPBatcher: 1
   m_SupportsDynamicBatching: 1
   m_MixedLightingSupported: 1
+  m_DebugLevel: 0
+  m_PostProcessingFeatureSet: 0
+  m_ColorGradingMode: 0
+  m_ColorGradingLutSize: 32
   m_ShadowType: 2
   m_LocalShadowsSupported: 0
   m_LocalShadowsAtlasResolution: 1024
   m_MaxPixelLights: 1
   m_ShadowAtlasResolution: 1024
-  m_ResourcesAsset: {fileID: 11400000, guid: aac5a08c32552a14c89394b703f1978a, type: 2}
   m_ShaderVariantLogLevel: 0

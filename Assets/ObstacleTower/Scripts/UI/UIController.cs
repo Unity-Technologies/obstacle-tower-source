@@ -7,7 +7,7 @@ using TMPro;
 public class UIController : MonoBehaviour
 {
     FloorBuilder floorBuilder;
-    private ObstacleTowerAcademy academy;
+    private ObstacleTowerManager academy;
     public GameObject killScreenPanel;
     public GameObject devUIPanel;
     public TMP_Text floorText;
@@ -21,7 +21,7 @@ public class UIController : MonoBehaviour
     void Awake()
     {
         floorBuilder = FindObjectOfType<FloorBuilder>();
-        academy = FindObjectOfType<ObstacleTowerAcademy>();
+        academy = FindObjectOfType<ObstacleTowerManager>();
         killScreenPanel.SetActive(false);
     }
 
@@ -71,7 +71,7 @@ public class UIController : MonoBehaviour
     {
         floorBuilder.floorNumber = 0;
         var agent = floorBuilder.agent.GetComponent<ObstacleTowerAgent>();
-        agent.Done();
+        agent.EndEpisode();
     }
 
     public void ResetAnimation()

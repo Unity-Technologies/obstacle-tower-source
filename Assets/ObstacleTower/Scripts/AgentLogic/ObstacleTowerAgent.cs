@@ -1,7 +1,8 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
-using MLAgents;
+using Unity.MLAgents;
+using Unity.MLAgents.Sensors;
 
 
 /// <summary>
@@ -10,7 +11,6 @@ using MLAgents;
 [RequireComponent(typeof(AgentAnimator))]
 public class ObstacleTowerAgent : Agent
 {
-    public Brain playerBrain;
     public FloorBuilder floorBuilder;
     public KeyController keyController;
     public Transform cameraPivot; //the object that contains the camera
@@ -54,20 +54,19 @@ public class ObstacleTowerAgent : Agent
         canvasPlayer.enabled = true;
     }
 
-    public override void InitializeAgent()
+    public override void Initialize()
     {
-        base.InitializeAgent();
         runTimer = true;
         agentRb = GetComponent<Rigidbody>();
         agentAnimator = GetComponent<AgentAnimator>();
         uIController = FindObjectOfType<UIController>();
     }
 
-    public override void CollectObservations()
+    public override void CollectObservations(VectorSensor sensor)
     {
-        AddVectorObs(keyController.currentNumberOfKeys, 6);
-        AddVectorObs(episodeTime);
-        AddVectorObs(floorBuilder.floorNumber);
+        sensor.AddOneHotObservation(keyController.currentNumberOfKeys, 6);
+        sensor.AddObservation(episodeTime);
+        sensor.AddObservation(floorBuilder.floorNumber);
     }
 
     private void PickUpKey(GameObject key)
@@ -112,7 +111,6 @@ public class ObstacleTowerAgent : Agent
 
     private void OnCollisionEnter(Collision col)
     {
-        if (IsDone()) return;
         _collisions.Add(col);
     }
 
@@ -130,7 +128,7 @@ public class ObstacleTowerAgent : Agent
             {
                 uIController.ShowKillScreen();
             }
-            Done();
+            EndEpisode();
             return true;
         }
 
@@ -141,7 +139,7 @@ public class ObstacleTowerAgent : Agent
                 uIController.ShowKillScreen();
             }
 
-            Done();
+            EndEpisode();
             return true;
         }
 
@@ -255,6 +253,42 @@ public class ObstacleTowerAgent : Agent
         agentAnimator.Move(dirToGo);
     }
 
+    public override void Heuristic(float[] action)
+    {
+        action[0] = 0f;
+        action[1] = 0f;
+        action[2] = 0f;
+        action[3] = 0f;
+        if (Input.GetKey(KeyCode.S))
+        {
+            action[0] = 2f;
+        }
+        if (Input.GetKey(KeyCode.W))
+        {
+            action[0] = 1f;
+        }
+        if (Input.GetKey(KeyCode.A))
+        {
+            action[3] = 2f;
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            action[3] = 1f;
+        }
+        if (Input.GetKey(KeyCode.K))
+        {
+            action[1] = 1f;
+        }
+        if (Input.GetKey(KeyCode.L))
+        {
+            action[1] = 2f;
+        }
+        if (Input.GetKey(KeyCode.Space))
+        {
+            action[2] = 1f;
+        }
+    }
+
     private void CheckOutOfBounds()
     {
         if (transform.position.y < -3f)
@@ -263,8 +297,7 @@ public class ObstacleTowerAgent : Agent
             {
                 uIController.ShowKillScreen();
             }
-
-            Done();
+            EndEpisode();
         }
     }
 
@@ -277,11 +310,11 @@ public class ObstacleTowerAgent : Agent
                 uIController.ShowKillScreen();
             }
 
-            Done();
+            EndEpisode();
         }
     }
 
-    public override void AgentAction(float[] vectorAction, string textAction)
+    public override void OnActionReceived(float[] vectorAction)
     {
         foreach (var col in _collisions)
         {
@@ -294,11 +327,8 @@ public class ObstacleTowerAgent : Agent
 
         _collisions.Clear();
 
-        if (!IsDone())
-        {
-            CheckOutOfBounds();
-            CheckTimeout();
-        }
+        CheckOutOfBounds();
+        CheckTimeout();
 
         MoveAgent(vectorAction);
         if (runTimer)
@@ -318,7 +348,7 @@ public class ObstacleTowerAgent : Agent
         }
     }
 
-    public override void AgentReset()
+    public override void OnEpisodeBegin()
     {
         _collisions.Clear();
 
