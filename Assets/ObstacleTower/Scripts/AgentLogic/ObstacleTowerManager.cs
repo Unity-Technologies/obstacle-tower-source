@@ -77,7 +77,7 @@ public class ObstacleTowerManager : MonoBehaviour
             Debug.Log("visual-theme outside of valid range. Using default value.");
         }
         
-        var perspective = (int)Academy.Instance.EnvironmentParameters.GetWithDefault("perspective", (int)AgentPerspective.ThirdPerson);
+        var perspective = (int)Academy.Instance.EnvironmentParameters.GetWithDefault("agent-perspective", (int)AgentPerspective.ThirdPerson);
         if (Enum.IsDefined(typeof(AgentPerspective), perspective))
         {
             floor.environmentParameters.agentPerspective = (AgentPerspective) perspective;
