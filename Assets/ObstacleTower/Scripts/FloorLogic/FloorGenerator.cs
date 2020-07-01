@@ -5,6 +5,7 @@ using Random = UnityEngine.Random;
 using ObstacleTowerGeneration;
 using ObstacleTowerGeneration.LayoutGrammar;
 using ObstacleTowerGeneration.MissionGraph;
+using System.Linq;
 
 /// <summary>
 /// Responsible for generating floor layouts based on environment parameters.
@@ -268,12 +269,22 @@ public class FloorGenerator
 
                 return VisualTheme.Future;
             case VisualThemeParameter.Random:
-                VisualTheme[] themesAll =
+                List<VisualTheme> themes_random = new List<VisualTheme>();
+                if (environmentParameters.use_ancient)
+                    themes_random.Add(VisualTheme.Ancient);
+                if (environmentParameters.use_moorish)
+                    themes_random.Add(VisualTheme.Moorish);
+                if (environmentParameters.use_industrial)
+                    themes_random.Add(VisualTheme.Industrial);
+                if (environmentParameters.use_modern)
+                    themes_random.Add(VisualTheme.Modern);
+                if (environmentParameters.use_future)
+                    themes_random.Add(VisualTheme.Future);
+                if (themes_random.Count < 1)
                 {
-                    VisualTheme.Ancient, VisualTheme.Moorish, VisualTheme.Industrial,
-                    VisualTheme.Modern, VisualTheme.Future
-                };
-                return themesAll[Random.Range(0, 5)];
+                    Debug.LogError("At least one visual theme has to be enabled to make use of VisualThemeParameter.Random.");
+                }
+                return themes_random[Random.Range(0, themes_random.Count)];
             default:
             {
                 return VisualTheme.Ancient;

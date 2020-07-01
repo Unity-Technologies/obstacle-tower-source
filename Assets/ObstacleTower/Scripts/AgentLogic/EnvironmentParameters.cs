@@ -15,6 +15,7 @@ public struct EnvironmentParameters
     public AllowedRoomTypes allowedRoomTypes;
     public AllowedFloorLayouts allowedFloorLayouts;
     public VisualTheme defaultTheme;
+    public bool use_ancient, use_moorish, use_industrial, use_modern, use_future;
 
     public bool Compare(EnvironmentParameters otherParams)
     {
@@ -24,7 +25,12 @@ public struct EnvironmentParameters
                         allowedRoomModules == otherParams.allowedRoomModules &&
                         allowedRoomTypes == otherParams.allowedRoomTypes &&
                         allowedFloorLayouts == otherParams.allowedFloorLayouts &&
-                        defaultTheme == otherParams.defaultTheme;
+                        defaultTheme == otherParams.defaultTheme &&
+                        use_ancient == otherParams.use_ancient &&
+                        use_moorish == otherParams.use_moorish &&
+                        use_industrial == otherParams.use_industrial &&
+                        use_modern == otherParams.use_modern &&
+                        use_future == otherParams.use_future;
         return equality;
     }
 }

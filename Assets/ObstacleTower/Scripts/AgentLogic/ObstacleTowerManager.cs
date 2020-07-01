@@ -53,6 +53,11 @@ public class ObstacleTowerManager : MonoBehaviour
         floor.environmentParameters.allowedRoomModules = AllowedRoomModules.All;
         floor.environmentParameters.allowedFloorLayouts = AllowedFloorLayouts.PlusCircling;
         floor.environmentParameters.defaultTheme = VisualTheme.Ancient;
+        floor.environmentParameters.use_ancient = true;
+        floor.environmentParameters.use_moorish = true;
+        floor.environmentParameters.use_industrial = true;
+        floor.environmentParameters.use_modern = true;
+        floor.environmentParameters.use_future = true;
     }
 
     private void UpdateEnvironmentParameters()
@@ -71,6 +76,14 @@ public class ObstacleTowerManager : MonoBehaviour
         if (Enum.IsDefined(typeof(VisualThemeParameter), visTheme))
         {
             floor.environmentParameters.themeParameter = (VisualThemeParameter) visTheme;
+            if (floor.environmentParameters.themeParameter.Equals(VisualThemeParameter.Random))
+            {
+                floor.environmentParameters.use_ancient = Convert.ToBoolean(Academy.Instance.EnvironmentParameters.GetWithDefault("use-ancient", 1.0f));
+                floor.environmentParameters.use_moorish = Convert.ToBoolean(Academy.Instance.EnvironmentParameters.GetWithDefault("use-moorish", 1.0f));
+                floor.environmentParameters.use_industrial = Convert.ToBoolean(Academy.Instance.EnvironmentParameters.GetWithDefault("use-industrial", 1.0f));
+                floor.environmentParameters.use_modern = Convert.ToBoolean(Academy.Instance.EnvironmentParameters.GetWithDefault("use-modern", 1.0f));
+                floor.environmentParameters.use_future = Convert.ToBoolean(Academy.Instance.EnvironmentParameters.GetWithDefault("use-future", 1.0f));
+            }
         }
         else
         {
