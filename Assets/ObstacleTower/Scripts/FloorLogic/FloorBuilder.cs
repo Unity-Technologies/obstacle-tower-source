@@ -89,6 +89,7 @@ public class FloorBuilder : MonoBehaviour
         {
             // Using System.Random to choose tower number so we don't end up choosing based on
             // the previously fixed seed for UnityEngine.Random.
+            floorGenerator.SetEnvironmentParams(environmentParameters);
             towerNumber = new System.Random().Next(ObstacleTowerManager.MaxSeed);
             lastTowerNumber = towerNumber;
             floors = floorGenerator.GenerateAllFloors(towerNumber, totalFloors);
