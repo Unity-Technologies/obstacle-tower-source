@@ -911,6 +911,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   floor: {fileID: 883513242}
   InferenceOn: 0
+  towerSeed: -1
+  startingFloor: 0
+  totalFloors: 100
+  denseReward: 1
+  lightingType: 1
+  visualTheme: 1
+  agentPerspective: 1
+  allowedRooms: 2
+  allowedModules: 2
+  allowedFloors: 2
+  defaultTheme: 0
+  useAncient: 1
+  useMoorish: 1
+  useIndustrial: 1
+  useModern: 1
+  useFuture: 1
 --- !u!4 &1774455169
 Transform:
   m_ObjectHideFlags: 0
