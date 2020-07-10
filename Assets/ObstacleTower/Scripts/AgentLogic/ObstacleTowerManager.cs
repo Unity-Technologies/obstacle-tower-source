@@ -17,11 +17,12 @@ public class ObstacleTowerManager : MonoBehaviour
     public const int MaxFloors = 100;
 
     [HideInInspector]
-    public bool InferenceOn = false;
+    public bool playMode = false;
 
     private ObstacleTowerAgent agentComponent;
 
     [Header("Default Reset Parameters")]
+    public bool trainMode = true;
     [Range(-1, MaxSeed)]
     public int towerSeed = -1;
     [Range(0,99)]
@@ -51,39 +52,35 @@ public class ObstacleTowerManager : MonoBehaviour
         GraphicsSettings.useScriptableRenderPipelineBatching = true;
         Academy.Instance.OnEnvironmentReset += ResetTower;
     }
-    
+
     private void EnableInference()
     {
-        InferenceOn = true;
         agentComponent.SetInference();
         Time.captureFramerate = 0;
     }
 
     private void EnableTraining()
     {
-        InferenceOn = false;
         agentComponent.SetTraining();
         Time.captureFramerate = 60;
     }
 
-    private void SetDefaultEnvironmentParameters()
-    {
-        floor.environmentParameters.lightingType = LightingType.Dynamic;
-        floor.environmentParameters.themeParameter = VisualThemeParameter.Serial;
-        floor.environmentParameters.agentPerspective = AgentPerspective.ThirdPerson;
-        floor.environmentParameters.allowedRoomTypes = AllowedRoomTypes.PlusPuzzle;
-        floor.environmentParameters.allowedRoomModules = AllowedRoomModules.All;
-        floor.environmentParameters.allowedFloorLayouts = AllowedFloorLayouts.PlusCircling;
-        floor.environmentParameters.defaultTheme = VisualTheme.Ancient;
-        floor.environmentParameters.use_ancient = true;
-        floor.environmentParameters.use_moorish = true;
-        floor.environmentParameters.use_industrial = true;
-        floor.environmentParameters.use_modern = true;
-        floor.environmentParameters.use_future = true;
-    }
-
     private void UpdateEnvironmentParameters()
     {
+        var isTraining = Convert.ToBoolean(Academy.Instance.EnvironmentParameters.GetWithDefault("train-mode", Convert.ToInt32(trainMode)));
+        if (!playMode)
+        {
+            if (isTraining)
+                EnableTraining();
+            else
+                EnableInference();
+        }
+        else
+        {
+            EnableInference();
+        }
+        floor.environmentParameters.trainMode = isTraining;
+
         var lightType = (int)Academy.Instance.EnvironmentParameters.GetWithDefault("lighting-type", (int)lightingType);
         if (Enum.IsDefined(typeof(LightingType), lightType))
         {
@@ -172,14 +169,6 @@ public class ObstacleTowerManager : MonoBehaviour
     {
         Debug.Log("Tower resetting");
         agentComponent.denseReward = Mathf.Clamp((int)Academy.Instance.EnvironmentParameters.GetWithDefault("dense-reward", Convert.ToInt32(denseReward)), 0, 1) != 0;
-        if (InferenceOn)
-        {
-            EnableInference();
-        }
-        else
-        {
-            EnableTraining();
-        }
         
         var seed = Mathf.Clamp((int)Academy.Instance.EnvironmentParameters.GetWithDefault("tower-seed", towerSeed), -1, MaxSeed);
         var floors = Mathf.Clamp((int)Academy.Instance.EnvironmentParameters.GetWithDefault("total-floors", totalFloors), 1, MaxFloors);

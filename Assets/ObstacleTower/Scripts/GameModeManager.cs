@@ -26,12 +26,12 @@ public class GameModeManager : MonoBehaviour
         {
             Debug.Log("In play mode");
             agent.GetComponent<BehaviorParameters>().BehaviorType = BehaviorType.HeuristicOnly;
-            academy.InferenceOn = true;
+            academy.playMode = true;
         }
         else
         {
             agent.GetComponent<BehaviorParameters>().BehaviorType = BehaviorType.Default;
-            academy.InferenceOn = false;
+            academy.playMode = false;
         }
         academy.enabled = true;
         agent.enabled = true;
