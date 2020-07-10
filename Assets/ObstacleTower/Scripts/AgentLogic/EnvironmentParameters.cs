@@ -8,6 +8,7 @@ using System;
 [Serializable]
 public struct EnvironmentParameters
 {
+    public bool trainMode;
     public LightingType lightingType;
     public AgentPerspective agentPerspective;
     public VisualThemeParameter themeParameter;
@@ -19,7 +20,8 @@ public struct EnvironmentParameters
 
     public bool Compare(EnvironmentParameters otherParams)
     {
-        var equality = lightingType == otherParams.lightingType && 
+        var equality = trainMode == otherParams.trainMode &&
+                        lightingType == otherParams.lightingType && 
                         agentPerspective == otherParams.agentPerspective &&
                         themeParameter == otherParams.themeParameter &&
                         allowedRoomModules == otherParams.allowedRoomModules &&

@@ -910,7 +910,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   floor: {fileID: 883513242}
-  InferenceOn: 0
+  playMode: 0
+  trainMode: 1
   towerSeed: -1
   startingFloor: 0
   totalFloors: 100
