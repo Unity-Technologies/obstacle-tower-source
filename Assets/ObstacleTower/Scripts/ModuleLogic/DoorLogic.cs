@@ -11,7 +11,6 @@ public class DoorLogic : MonoBehaviour
     public Material openDoor;
     public GameObject door;
     private Animation animator;
-    KeyController keyController;
     private List<string> clips;
 
     private void Start()
@@ -24,7 +23,7 @@ public class DoorLogic : MonoBehaviour
         }
     }
 
-    public void TryOpenDoor()
+    public void TryOpenDoor(ObstacleTowerAgent agent)
     {
         if (!open)
         {
@@ -32,43 +31,42 @@ public class DoorLogic : MonoBehaviour
             || door.CompareTag("lockedDoorPuzzle") ||
             door.CompareTag("lockedDoorLever"))
             {
-                OpenDoor();
+                OpenDoor(agent);
             }
 
             if (door.CompareTag("lockedDoorKey"))
             {
-                keyController = FindObjectOfType<KeyController>();
-                if (keyController)
+                if (agent.keyController)
                 {
-                    if (keyController.currentNumberOfKeys > 0)
+                    if (agent.keyController.currentNumberOfKeys > 0)
                     {
-                        keyController.UseKey();
-                        OpenDoor();
+                        agent.keyController.UseKey();
+                        OpenDoor(agent);
                     }
                 }
             }
         }
     }
 
-    public void TryCloseDoor()
+    public void TryCloseDoor(ObstacleTowerAgent agent)
     {
         if (open && door.CompareTag("lockedDoorLever"))
         {
-            CloseDoor();
+            CloseDoor(agent);
         }
     }
 
-    private void CloseDoor()
+    private void CloseDoor(ObstacleTowerAgent agent)
     {
         open = false;
         animator.Play(clips[1]);
-        GameObject.FindWithTag("agent").GetComponent<ObstacleTowerAgent>().AddReward(-0.1f);
+        if(agent.denseReward) agent.AddReward(-0.1f);
     }
 
-    private void OpenDoor()
+    private void OpenDoor(ObstacleTowerAgent agent)
     {
         animator.Play(clips[0]);
         open = true;
-        GameObject.FindWithTag("agent").GetComponent<ObstacleTowerAgent>().AddReward(0.1f);
+        if (agent.denseReward)  agent.AddReward(0.1f);
     }
 }

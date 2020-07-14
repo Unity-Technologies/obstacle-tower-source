@@ -170,7 +170,7 @@ public class ObstacleTowerAgent : Agent
             DoorLogic doorController = col.transform.GetComponent<DoorLogic>();
             if (doorController)
             {
-                doorController.TryOpenDoor();
+                doorController.TryOpenDoor(this);
             }
         }
     }
@@ -182,7 +182,7 @@ public class ObstacleTowerAgent : Agent
             DoorLogic doorController = col.transform.GetComponent<DoorLogic>();
             if (doorController)
             {
-                doorController.TryCloseDoor();
+                doorController.TryCloseDoor(this);
             }
         }
     }

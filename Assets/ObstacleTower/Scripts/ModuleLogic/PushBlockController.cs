@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Unity.MLAgents;
+using UnityEngine;
 
 /// <summary>
 /// Responsible for determining whether block puzzle has been solved.
@@ -38,7 +39,8 @@ public class PushBlockController : MonoBehaviour
             foreach (var component in doorControllers)
             {
                 var door = (DoorLogic) component;
-                door.TryOpenDoor();
+                var agent = transform.root.GetComponent<FloorBuilder>().agent.GetComponent<ObstacleTowerAgent>();
+                door.TryOpenDoor(agent);
             }
         }
     }
