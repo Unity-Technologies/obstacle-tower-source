@@ -60,13 +60,13 @@ public class DoorLogic : MonoBehaviour
     {
         open = false;
         animator.Play(clips[1]);
-        agent.AddReward(-0.1f);
+        if(agent.denseReward) agent.AddReward(-0.1f);
     }
 
     private void OpenDoor(ObstacleTowerAgent agent)
     {
         animator.Play(clips[0]);
         open = true;
-        agent.AddReward(0.1f);
+        if (agent.denseReward)  agent.AddReward(0.1f);
     }
 }
