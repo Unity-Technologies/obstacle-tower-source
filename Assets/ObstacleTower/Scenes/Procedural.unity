@@ -694,9 +694,10 @@ MonoBehaviour:
   m_Model: {fileID: 0}
   m_InferenceDevice: 0
   m_BehaviorType: 0
-  m_BehaviorName: ObstacleTowerAgent-v4.0
+  m_BehaviorName: ObstacleTowerAgent-v4.1
   TeamId: 0
   m_UseChildSensors: 1
+  m_ObservableAttributeHandling: 0
 --- !u!114 &571992316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -890,7 +891,7 @@ GameObject:
   - component: {fileID: 1774455169}
   - component: {fileID: 1774455168}
   m_Layer: 0
-  m_Name: ObstacleTower-v4.0
+  m_Name: ObstacleTower
   m_TagString: academy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
