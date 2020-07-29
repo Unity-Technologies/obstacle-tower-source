@@ -21,7 +21,7 @@ If you are interested primarily in AI research using Obstacle Tower without the 
 ## Requirements
 
 * [Unity 2019.4](https://unity3d.com/get-unity/download)
-* [ML-Agents release_3](https://github.com/Unity-Technologies/ml-agents/tree/release_3)
+* [ML-Agents release_4](https://github.com/Unity-Technologies/ml-agents/tree/release_4)
 
 ## Opening the project
 
