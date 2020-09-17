@@ -669,8 +669,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Camera: {fileID: 1582957648}
   m_SensorName: CameraSensor
-  m_Width: 84
-  m_Height: 84
+  m_Width: 168
+  m_Height: 168
   m_Grayscale: 0
   m_Compression: 1
 --- !u!114 &571992315
